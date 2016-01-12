@@ -1,24 +1,4 @@
-# Sense HAT Random Sparkles
-
-![Sense HAT Random Sparkles](cover.png)
-
-Let your Sense HAT shine with pride
-
-## Requirements
-
-As well as a Raspberry Pi with an SD card loaded with Raspbian, you'll also need:
-
-### Hardware
-
-- 1 x [Sense HAT](https://www.raspberrypi.org/products/sense-hat/)
-
-### Software
-
-- Sense HAT for Python 3
-
-See more information on checking you have these packages installed, and how to install them on the [software installation](software.md) page.
-
-## Licence
+# Licence
 
 Unless otherwise specified, everything in this repository is covered by the following licence:
 

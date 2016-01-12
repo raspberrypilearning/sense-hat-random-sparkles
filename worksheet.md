@@ -1,6 +1,8 @@
 # Sense HAT Random Sparkles
 
-Let your Sense HAT shine with pride
+Let your Sense HAT shine with pride.
+
+Start by attaching the Sense HAT to your Raspberry Pi.
 
 ## Using set pixel
 
@@ -8,7 +10,7 @@ First we'll think up some random numbers and use the `set_pixel` function to pla
 
 1. Start by opening Python 3 (IDLE) from the main menu:
 
-    ![Open Python 3](images/open-python3.png)
+    ![Open Python 3](images/python3-app-menu.png)
 
 1. Create a new file by clicking `File > New file`
 
@@ -75,7 +77,7 @@ First we'll think up some random numbers and use the `set_pixel` function to pla
 
 ## Using the random module
 
-So far you picked your own random numbers - but you can let the computer pick them instead.
+So far you picked your own random numbers - but you can let the computer choose them instead.
 
 1. Add another import line into your program, at the top, below `from sense_hat import SenseHat`:
 
@@ -83,14 +85,14 @@ So far you picked your own random numbers - but you can let the computer pick th
     from random import randint
     ```
 
-1. Now change your `x = ` and `y = ` lines to:
+1. Now change your `x = ` and `y = ` lines to automatically select a random position:
 
     ```python
     x = randint(0, 7)
     y = randint(0, 7)
     ```
 
-    Now your program will automatically select a random location.
+    *The `randint` function (random integer) chooses a random number between the two given numbers, in this case 0 and 7.*
 
 1. Run your program again, and you should see another random pixel being placed on the display. It will be the same colour you chose previously.
 
@@ -146,3 +148,4 @@ Rather than have to keep running your program, you can add a loop for it to keep
 - Try removing the `sleep` line so there's no delay at all
 - Try limiting the colour numbers to `randint(100, 255)` to reduce the intensity of the colours
 - Try fixing one of the colour values to `0` to bias the colour mix, e.g. `r, g, 0` will only make red/green/yellow colours
+- What else can you draw on your Sense HAT display? Try making an [animated Pixel Pet](https://www.raspberrypi.org/learning/pixel-pet/)!
