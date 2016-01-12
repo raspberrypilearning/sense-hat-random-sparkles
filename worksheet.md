@@ -90,4 +90,59 @@ So far you picked your own random numbers - but you can let the computer pick th
     y = randint(0, 7)
     ```
 
-1. Run your program again, and you should see another random pixel being 
+    Now your program will automatically select a random location.
+
+1. Run your program again, and you should see another random pixel being placed on the display. It will be the same colour you chose previously.
+
+1. Now change your colour value lines to:
+
+    ```python
+    r = randint(0, 255)
+    g = randint(0, 255)
+    b = randint(0, 255)
+    ```
+
+    Now your program will automatically select a random colour.
+
+1. Run it again, and you should see another pixel appear in a random location with a random colour.
+
+1. Run it a few more times and you should see more of the grid fill up with random pixels.
+
+## Add a loop
+
+Rather than have to keep running your program, you can add a loop for it to keep going.
+
+1. First, add an import to the top of your file:
+
+    ```python
+    from time import sleep
+    ```
+
+    You'll use this to pause the program between pixels.
+
+1. Add a `while True:` to your code so that all the random lines, `set_pixel` and `sleep` are within the loop:
+
+    ```python
+    while True:
+        x = randint(0, 7)
+        y = randint(0, 7)
+        r = randint(0, 255)
+        g = randint(0, 255)
+        b = randint(0, 255)
+        sense.set_pixel(x, y, r, g, b)
+    ```
+
+1. Add a `sleep` into your program, after `set_pixel` but still inside the loop:
+
+    ```python
+    sleep(0.1)
+    ```
+
+1. Run the code and you should see random sparkles in action!
+
+## What next?
+
+- Try reducing your `sleep` down to `0.01` so it runs faster
+- Try removing the `sleep` line so there's no delay at all
+- Try limiting the colour numbers to `randint(100, 255)` to reduce the intensity of the colours
+- Try fixing one of the colour values to `0` to bias the colour mix, e.g. `r, g, 0` will only make red/green/yellow colours
