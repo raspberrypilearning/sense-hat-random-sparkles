@@ -1,20 +1,20 @@
 # Sense HAT Random Sparkles
 
-Let your Sense HAT shine with pride.
+Let your Sense HAT shine with pride!
 
 Start by attaching the Sense HAT to your Raspberry Pi.
 
-## Using set pixel
+## Using set_pixel
 
-First we'll think up some random numbers and use the `set_pixel` function to place a random colour on a random location on the Sense HAT display.
+First, we'll think up some random numbers and use the `set_pixel` function to place a random colour on a random location on the Sense HAT display.
 
 1. Start by opening Python 3 (IDLE) from the main menu:
 
     ![Open Python 3](images/python3-app-menu.png)
 
-1. Create a new file by clicking `File > New file`
+1. Create a new file by clicking `File > New file`.
 
-1. Save the new file as `sparkles.py`
+1. Save the new file as `sparkles.py`.
 
 1. In the new file, start by importing the Sense HAT module:
 
@@ -28,19 +28,19 @@ First we'll think up some random numbers and use the `set_pixel` function to pla
     sense = SenseHat()
     ```
 
-1. Now think of a random number between 0 and 7, and assign it to the variable `x`, for example:
+1. Now think of a random number between 0 and 7 and assign it to the variable `x`, for example:
 
     ```python
     x = 4
     ```
 
-1. Think of another random number between 0 and 7, and assign it to `y`:
+1. Think of another random number between 0 and 7, then assign it to `y`:
 
     ```python
     y = 5
     ```
 
-1. Think of three random numbers between 0 and 255, and assign them to `r`, `g`, and `b`:
+1. Think of three random numbers between 0 and 255, then assign them to `r`, `g`, and `b`:
 
     ```python
     r = 19
@@ -54,7 +54,7 @@ First we'll think up some random numbers and use the `set_pixel` function to pla
     sense.set_pixel(x, y, r, g, b)
     ```
 
-1. Check over your code. It should look like this (with your own random numbers):
+1. Check over your code. It should look like this, with your own random numbers assigned to the variables:
 
     ```python
     from sense_hat import SenseHat
@@ -71,15 +71,15 @@ First we'll think up some random numbers and use the `set_pixel` function to pla
 
 1. Now run your code by pressing `F5`. You should see a single pixel light up.
 
-    *Maybe you knew where it would appear, and maybe you had an idea what sort of colour it was going to be. The `x` and `y` are coordinates - the top left corner pixel is `(0, 0)` and the bottom right corner is `(7, 7)`. The `r`, `g` and `b` numbers are the red, green and blue parts of the colour. `(255, 0, 0)` would be pure red, `(0, 255, 0)` would be pure green, and `(255, 255, 0)` would be yellow.*
+    *You might have guessed where the pixel would appear, and maybe you had an idea what colour it was going to be. The `x` and `y` are coordinates - the top-left corner pixel is `(0, 0)` and the bottom-right corner is `(7, 7)`. The `r`, `g` and `b` numbers are the red, green and blue parts of the colour. `(255, 0, 0)` would be pure red, `(0, 255, 0)` would be pure green, and `(255, 255, 0)` would be yellow.*
 
 1. Now pick some new random numbers - change them all - and run the program again. A second pixel should appear on the display!
 
 ## Using the random module
 
-So far you picked your own random numbers - but you can let the computer choose them instead.
+So far you picked your own random numbers, but you can let the computer choose them instead.
 
-1. Add another import line into your program, at the top, below `from sense_hat import SenseHat`:
+1. Add another `import` line at the top of your program, below `from sense_hat import SenseHat`:
 
     ```python
     from random import randint
@@ -108,13 +108,13 @@ So far you picked your own random numbers - but you can let the computer choose 
 
 1. Run it again, and you should see another pixel appear in a random location with a random colour.
 
-1. Run it a few more times and you should see more of the grid fill up with random pixels.
+1. Run it a few more times, and you should see more of the grid fill up with random pixels.
 
 ## Add a loop
 
-Rather than have to keep running your program, you can add a loop for it to keep going.
+Rather than have to keep running your program, you can add a loop so that it will keep going.
 
-1. First, add an import to the top of your file:
+1. First, add an `import` to the top of your file:
 
     ```python
     from time import sleep
@@ -122,7 +122,7 @@ Rather than have to keep running your program, you can add a loop for it to keep
 
     You'll use this to pause the program between pixels.
 
-1. Add a `while True:` to your code so that all the random lines, `set_pixel` and `sleep` are within the loop:
+1. Add a `while True:` to your code so that the random lines, `set_pixel` and `sleep` are all within the loop:
 
     ```python
     while True:
@@ -147,5 +147,5 @@ Rather than have to keep running your program, you can add a loop for it to keep
 - Try reducing your `sleep` down to `0.01` so it runs faster
 - Try removing the `sleep` line so there's no delay at all
 - Try limiting the colour numbers to `randint(100, 255)` to reduce the intensity of the colours
-- Try fixing one of the colour values to `0` to bias the colour mix, e.g. `r, g, 0` will only make red/green/yellow colours
+- Try fixing one of the colour values to `0` to bias the colour mix - for example, `r, g, 0` will only make red/green/yellow colours
 - What else can you draw on your Sense HAT display? Try making an [animated Pixel Pet](https://www.raspberrypi.org/learning/pixel-pet/)!
