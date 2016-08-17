@@ -68,6 +68,7 @@ First, we'll think up some random numbers and use the `set_pixel` function to pl
     b = 230
     sense.set_pixel(x, y, r, g, b)
     ```
+    <iframe src="https://trinket.io/embed/python/17a33cb9e7" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 1. Now run your code by pressing `F5`. You should see a single pixel light up.
 
@@ -110,6 +111,8 @@ So far you picked your own random numbers, but you can let the computer choose t
 
 1. Run it a few more times, and you should see more of the grid fill up with random pixels.
 
+<iframe src="https://trinket.io/embed/python/744a00dba6" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
 ## Add a loop
 
 Rather than have to keep running your program, you can add a loop so that it will keep going.
@@ -141,6 +144,8 @@ Rather than have to keep running your program, you can add a loop so that it wil
     ```
 
 1. Run the code and you should see random sparkles in action!
+
+    <iframe src="https://trinket.io/embed/python/5cab63c3da" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ## What next?
 
