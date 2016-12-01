@@ -4,6 +4,8 @@ Let your Sense HAT shine with pride!
 
 Start by attaching the Sense HAT to your Raspberry Pi.
 
+If you do not have a Sense HAT, you could create the project in a web browser using the [Sense HAT emulator](https://trinket.io/sense-hat).
+
 ## Using set_pixel
 
 First, we'll think up some random numbers and use the `set_pixel` function to place a random colour on a random location on the Sense HAT display.
