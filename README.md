@@ -18,6 +18,8 @@ As well as a Raspberry Pi with an SD card loaded with Raspbian, you'll also need
 
 See more information on checking you have these packages installed, and how to install them, on the [software installation](software.md) page.
 
+If you do not have a Sense HAT, you could create the project in a web browser using the [Sense HAT emulator](https://trinket.io/sense-hat).
+
 ## Licence
 
 Unless otherwise specified, everything in this repository is covered by the following licence:
