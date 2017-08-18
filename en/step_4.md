@@ -2,13 +2,11 @@
 
 First, we'll think up some random numbers and use the `set_pixel` function to place a random colour on a random location on the Sense HAT display.
 
-- Start by opening Python 3 (IDLE) from the main menu:
++ Open the IDLE editor
 
-    ![Open Python 3](images/python3-app-menu.png)
+[[[rpi-gui-idle-opening]]]
 
-- Create a new file by clicking `File > New file`.
-
-- Save the new file as `sparkles.py`.
+- Create a new file and save it as **sparkles.py**
 
 - In the new file, start by importing the Sense HAT module:
 
@@ -22,31 +20,18 @@ First, we'll think up some random numbers and use the `set_pixel` function to pl
     sense = SenseHat()
     ```
 
-- Now think of a random number between 0 and 7 and assign it to the variable `x`, for example:
+- Create a variable called **x** and set it equal to a number of your choice between 0 and 7
+[[[generic-python-creating-a-variable]]]
 
-    ```python
-    x = 4
-    ```
 
-- Think of another random number between 0 and 7, then assign it to `y`:
+- Think of another number between 0 and 7, then assign it to a variable called `y`
 
-    ```python
-    y = 5
-    ```
 
-- Think of three random numbers between 0 and 255, then assign them to `r`, `g`, and `b`:
-
-    ```python
-    r = 19
-    g = 180
-    b = 230
-    ```
+- Think of three numbers between 0 and 255, then assign them to variables called `r`, `g`, and `b`:
 
 - Now use the `set_pixel` function to place your random colour at your random location on the display:
 
-    ```python
-    sense.set_pixel(x, y, r, g, b)
-    ```
+[[[rpi-sensehat-single-pixel]]]
 
 - Check over your code. It should look like this, with your own random numbers assigned to the variables:
 
@@ -70,3 +55,4 @@ First, we'll think up some random numbers and use the `set_pixel` function to pl
 
 - Now pick some new random numbers - change them all - and run the program again. A second pixel should appear on the display!
 
+[[[rpi-sensehat-single-pixel]]]

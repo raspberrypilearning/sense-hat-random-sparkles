@@ -6,6 +6,8 @@
 
 ### Software
 
+- Python 3
+
 [[[rpi-install-software]]]
 
 You'll need to make sure you have the following packages installed:
