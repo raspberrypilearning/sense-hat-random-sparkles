@@ -15,7 +15,7 @@ steps:
 - title: Introduction
 - title: What you will need
 - title: Attach the Sense HAT
-- title: Using set_pixel
+- title: Setting pixels at random
 - title: Using the random module
 - title: Add a loop
 - title: What next?
