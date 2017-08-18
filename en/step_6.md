@@ -43,3 +43,5 @@ while True:
 
 
 + Run the code and you should see random sparkles in action!
+
+![Finished result](images/finished-result.gif)
