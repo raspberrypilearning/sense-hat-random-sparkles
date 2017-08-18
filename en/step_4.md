@@ -26,7 +26,7 @@ First, we'll think up some random numbers and use the `set_pixel` function to pl
 
 - Create another variable called **y** and set it equal to another number between 0 and 7. This will be the y coordinate of your pixel on the display.
 
-- Think of three numbers between 0 and 255, then assign them to variables called `r`, `g`, and `b`. These variables will represent the colour of your pixel as amounts of red (r), green (g) and blue (b).
+- Think of three numbers between 0 and 255, then assign them to variables called **r**, **g**, and **b**. These variables will represent the colour of your pixel as amounts of red (r), green (g) and blue (b).
 
 - Now use the `set_pixel` function to place a pixel with your randomly chosen colour at your randomly chosen  location on the display.
 
@@ -48,9 +48,9 @@ sense.set_pixel(?, ?, ?, ?, ?)
 --- /hint ---
 
 --- hint ---
-    Here is how your finished code should look:
+    Here is how your finished code should look, but you will probably have chosen different numbers:
 
-    <iframe src="https://trinket.io/embed/python/17a33cb9e7" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+    ![Random pixel solution](images/random-pixel-solution.png)
 
 --- /hint ---
 
