@@ -48,9 +48,9 @@ sense.set_pixel(?, ?, ?, ?, ?)
 --- /hint ---
 
 --- hint ---
-    Here is how your finished code should look, but you will probably have chosen different numbers:
+Here is how your finished code should look, but you will probably have chosen different numbers:
 
-    ![Random pixel solution](images/random-pixel-solution.png)
+![Random pixel solution](images/random-pixel-solution.png)
 
 --- /hint ---
 
