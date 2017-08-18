@@ -43,5 +43,3 @@ while True:
 
 
 + Run the code and you should see random sparkles in action!
-
-<iframe src="https://trinket.io/embed/python/5cab63c3da" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
