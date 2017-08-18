@@ -10,7 +10,7 @@ from time import sleep
 
 + Add an infinite loop on the line below the import statement
 
-[[[generic-python-while-loop]]
+[[[generic-python-while-loop]]]
 
 + Indent all of the lines of code containing your variables and `set_pixel` so that they are within the loop:
 
