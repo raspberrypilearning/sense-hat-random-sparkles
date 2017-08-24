@@ -2,7 +2,8 @@
 
 ### Hardware
 
-* Sense HAT
+* A Raspberry Pi
+* A Sense HAT
 
 ### Software
 
@@ -10,7 +11,7 @@
 
 [[[rpi-install-software]]]
 
-You'll need to make sure you have the following packages installed:
+You'll need to make sure you have the following package installed:
 
 - Sense HAT for Python 3
 
