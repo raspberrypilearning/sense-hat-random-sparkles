@@ -2,13 +2,13 @@
 
 Rather than have to keep running your program, you can add a loop so that it will keep going.
 
-+ Add another `import` to the top of your file. You'll use this to pause the program between pixels.
++ You can use the `sleep` module to pause the program between pixels. To do so, first add another `import` to the top of your file. 
 
 ```python
 from time import sleep
 ```
 
-+ Add an infinite loop on the line below the import statement
++ Add an infinite loop on the line below the `import` statements.
 
 [[[generic-python-while-true]]]
 
@@ -24,7 +24,7 @@ while True:
 --- /hint ---
 
 --- hint ---
-Here is what your code should look like
+Here is what your code should look like:
 ```python
 while True:
     x = randint(0, 7)
@@ -37,11 +37,11 @@ while True:
 --- /hint ---
 --- /hints ---
 
-+ Add line of code at the bottom of your program to pause for 0.1 seconds. Make sure that this line is indented level with the `set_pixel` line to show that it is inside the loop.
++ Add a line of code at the bottom of your program to pause for 0.1 seconds. Make sure that this line is indented level with the `set_pixel` line to show that it is inside the loop.
 
 [[[generic-python-sleep]]]
 
 
-+ Run the code and you should see random sparkles in action!
++ Run the code, and you should see random sparkles in action!
 
 ![Finished result](images/finished-result.gif)
