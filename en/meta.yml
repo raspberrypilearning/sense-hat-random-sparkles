@@ -1,5 +1,4 @@
----
-title: Sense HAT Random Sparkles
+title: Sense HAT random sparkles
 hero_image: images/banner.png
 description: Let your Sense HAT shine with pride
 original_url: https://raspberrypi.org/learning/sense-hat-random-sparkles
@@ -15,9 +14,8 @@ site_areas: ''
 steps:
 - title: Introduction
 - title: What you will need
-- title: Sense HAT Random Sparkles
-- title: Using set_pixel
+- title: Attach the Sense HAT
+- title: Setting pixels at random
 - title: Using the random module
 - title: Add a loop
-- title: What next?
-
+- title: "Challenge: Better sparkles"

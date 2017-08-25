@@ -1,8 +1,7 @@
-## What next?
+## Challenge: better sparkles
 
-- Try reducing your `sleep` down to `0.01` so it runs faster
-- Try removing the `sleep` line so there's no delay at all
-- Try limiting the colour numbers to `randint(100, 255)` to reduce the intensity of the colours
-- Try fixing one of the colour values to `0` to bias the colour mix - for example, `r, g, 0` will only make red/green/yellow colours
-- What else can you draw on your Sense HAT display? Try making an [animated Pixel Pet](https://learning-admin.raspberrypi.org/en/projects/rpi-python-pixel-pet)!
++ Can you make the sparkles change more quickly?
 
++ Can you make the sparkles appear in pastel colours? (Hint: You normally pick colour variable values within the range of 0 to 255. Reduce the range and see what happens.)
+
+- Try fixing one of the colour values to 0, and see what happens.
