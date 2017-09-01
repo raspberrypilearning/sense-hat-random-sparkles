@@ -14,7 +14,7 @@ site_areas: ''
 steps:
 - title: Introduction
 - title: What you will need
-- title: Attach the Sense HAT
+- title: Connect to your Sense HAT
 - title: Setting pixels at random
 - title: Using the random module
 - title: Add a loop
