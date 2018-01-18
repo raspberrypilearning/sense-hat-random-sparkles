@@ -7,3 +7,6 @@
 + If you do not have a Sense HAT, you could create the project using the Sense HAT emulator.
 
 [[[rpi-sensehat-emulator]]]
+
+
+*NOTE:* If you are using a Sense HAT, you will be using IDLE for your code. If you are using the Sense HAT emulator, you will be using Trinket. Keep in mind that depending on which you are using, there may be some differences in the colour of the text highlighting.

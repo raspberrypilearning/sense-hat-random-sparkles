@@ -20,15 +20,17 @@ First, we'll think up some random numbers and use the `set_pixel` function to pl
     sense = SenseHat()
     ```
 
+
 We will then define x and y, to choose which pixel on the Sense HAT will light.
 
 + Create a variable called `x`, and set it equal to a number of your choice between 0 and 7. This will be the x coordinate of your pixel on the display.
 [[[generic-python-creating-a-variable]]]
 
-
 + Create another variable called `y`, and set it equal to another number between 0 and 7. This will be the y coordinate of your pixel on the display.
 
+
 + To choose the colour of your pixel, think of three numbers between 0 and `255`, then assign them to variables called `r`, `g`, and `b`. These variables will represent the colour of your pixel as amounts of red (r), green (g), and blue (b).
+
 
 + Now use the `set_pixel` function to place a pixel with your randomly chosen colour at your randomly chosen location on the display.
 *NOTE:* the collapsible directions below use a different filename than yours and uses Trinket instead of IDLE.
@@ -56,6 +58,7 @@ Here is how your finished code should look, but you will probably have chosen di
 --- /hint ---
 
 --- /hints ---
+
 
 + Run your code by pressing **F5**. You should see a single LED light up on the Sense HAT's LED display.
 
