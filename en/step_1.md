@@ -1,6 +1,6 @@
 ## Introduction
 
-Create amazing random sparkles with your Sense HAT by learning how to choose random positions and colour values and place them on the Sense HAT's LED display.
+Create amazing random sparkles with your Sense HAT by learning how to choose random positions and colour values and placing them on the Sense HAT's LED display.
 
 ### What you will make
 
