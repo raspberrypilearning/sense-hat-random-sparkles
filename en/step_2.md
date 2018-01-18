@@ -5,7 +5,7 @@
 * A Raspberry Pi
 * A Sense HAT
 
-***OR***
+*OR*
 
 If you do not have a Raspberry Pi or Sense HAT, you can create the project using:
 
