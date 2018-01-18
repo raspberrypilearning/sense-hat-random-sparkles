@@ -6,7 +6,6 @@
 * A Sense HAT
 
 *OR*
-
 If you do not have a Raspberry Pi or Sense HAT, you can create the project using:
 
 * Sense HAT emulator (in a [web browser](https://trinket.io/sense-hat) or on the Raspbian OS)
