@@ -32,12 +32,12 @@ First, we'll think up some random numbers and use the `set_pixel` function to pl
 
 [[[rpi-sensehat-single-pixel]]]
 
---- hints ---
---- hint ---
 The `set_pixel` method takes data in the following order:
 x coordinate, y coordinate, red, green, blue
---- /hint ---
 
+Use this order of data to define the `set_pixel` method, and view the hints below if you are stuck.
+
+--- hints ---
 --- hint ---
 Plug the names of your variables into this line of code, in the right order - x coordinate, y coordinate, red, green, blue.
 
