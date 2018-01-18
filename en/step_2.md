@@ -3,7 +3,13 @@
 ### Hardware
 
 * A Raspberry Pi
-* A Sense HAT (If you do not have a Sense HAT, you can create the project using the Sense HAT emulator in a [web browser](https://trinket.io/sense-hat) or on the Raspbian OS.)
+* A Sense HAT
+
+***OR***
+
+If you do not have a Raspberry Pi or Sense HAT, you can create the project using:
+
+* Sense HAT emulator (in a [web browser](https://trinket.io/sense-hat) or on the Raspbian OS)
 
 ### Software
 You will need the [latest version of Raspbian](https://www.raspberrypi.org/downloads/), which already includes the following software packages:
