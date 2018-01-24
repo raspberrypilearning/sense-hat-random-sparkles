@@ -1,10 +1,10 @@
 ## Introduction
 
-Create amazing random sparkles with your Sense HAT by learning how to choose random positions and colour values and placing them on the Sense HAT's LED display.
+Create amazing random sparkles with your Sense HAT. In doing so, you will learn how to choose random positions on the Sense HAT's LED display as well as random colours to light up the LEDs.
 
 ### What you will make
 
-Here is a preview of the random sparkle effect you will create. Click **Run** to see it in action.
+Here is a preview of the random sparkle effect you will create — click **Run** to see it in action.
 
 <iframe src="https://trinket.io/embed/python/55af2b45f5?outputOnly=true&runOption=run" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
