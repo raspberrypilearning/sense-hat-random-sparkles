@@ -1,6 +1,6 @@
 ## Add a loop
 
-Rather than have to keep running your program, you can add a loop so that it will keep going.
+Rather than running your program over and over by pressing <kbd>F5</kbd>, you can add a loop so that it will keep running by itself.
 
 + You can use the `sleep` module to pause the program between pixels. To do so, first add another `import` to the top of your file. 
 
