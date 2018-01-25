@@ -20,6 +20,6 @@ from random import randint
 
 + Run it a few more times, and you should see more of the grid fill up with random pixels.
 
-If you have the `sense.clear()` line in your code, you will need to remove it; otherwise, every time the program is re-run, the pixels will be cleared and your previous pixel will disappear. 
+If you have the `sense.clear()` line in your code, you will need to remove it. Otherwise, every time the program is re-run, the display will be cleared and your previous pixel will disappear. 
 
 ![Random pixels](images/random-pixels.png)
