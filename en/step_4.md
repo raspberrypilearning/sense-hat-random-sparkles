@@ -61,6 +61,6 @@ Here is how your finished code should look — you will probably have chosen dif
 --- /hints ---
 
 
-+ Run your code by pressing **F5**. You should see a single LED light up on the Sense HAT's LED display.
++ Run your code by pressing <kbd>F5</kbd>. You should see a single LED light up on the Sense HAT's LED display.
 
 + Now change all of the numbers in your program and run the program again. A second LED should turn on.
