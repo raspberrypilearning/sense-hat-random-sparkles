@@ -33,14 +33,15 @@ We will then define x and y, to choose which pixel on the Sense HAT will light.
 
 
 + Now use the `set_pixel` function to place a pixel with your randomly chosen colour at your randomly chosen location on the display.
-*NOTE:* the collapsible directions below use a different filename than yours and uses Trinket instead of IDLE.
+
+**Note:** the collapsible directions below use a different filename than yours, and uses Trinket instead of IDLE.
 
 [[[rpi-sensehat-single-pixel]]]
 
 The `set_pixel` method takes data in the following order:
 x coordinate, y coordinate, red, green, blue
 
-To define your `set_pixel` method, plug the names of your variables into the question marks in this line of code, in the right order - x coordinate, y coordinate, red, green, blue.
+To define your `set_pixel` method, plug the names of your variables into the question marks in this line of code, in the right order: x coordinate, y coordinate, red, green, blue.
 
 ```python
 sense.set_pixel(?, ?, ?, ?, ?)
@@ -51,7 +52,7 @@ View the hint below if you are stuck.
 --- hints ---
 
 --- hint ---
-Here is how your finished code should look, but you will probably have chosen different numbers:
+Here is how your finished code should look — you will probably have chosen different numbers:
 
 ![Random pixel solution](images/random-pixel-solution.png)
 
@@ -62,4 +63,4 @@ Here is how your finished code should look, but you will probably have chosen di
 
 + Run your code by pressing **F5**. You should see a single LED light up on the Sense HAT's LED display.
 
-+ Now change all of the numbers in your program and run the program again. A second LED should turn on the display.
++ Now change all of the numbers in your program and run the program again. A second LED should turn on.
