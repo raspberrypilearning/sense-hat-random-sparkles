@@ -2,14 +2,11 @@
 
 So far you picked your own random numbers, but you can let the computer choose them instead by using the `random` module.
 
-+ Add another `import` line at the top of your program:
++ Add another `import` line at the **top** of your program:
 
 ```python
 from random import randint
 ```
-
-![Add import](images/add-import.png)
-
 
 + Change your `x` and `y` variables to be equal to a random number between 0 and 7. Now your program will automatically select a random position on the LED matrix.
 
@@ -22,5 +19,7 @@ from random import randint
 + Run the program again, and you should see another pixel appear in a random location, this time with a random colour.
 
 + Run it a few more times, and you should see more of the grid fill up with random pixels.
+
+If you have the `sense.clear()` line in your code, you will need to remove it. Otherwise, every time the program is re-run, the display will be cleared and your previous pixel will disappear. 
 
 ![Random pixels](images/random-pixels.png)
