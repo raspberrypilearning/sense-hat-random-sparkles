@@ -49,7 +49,9 @@ View the hint below if you are stuck.
 
 --- hints ---
 
---- hint --- Here is how your finished code should look — you will probably have chosen different numbers:
+--- hint ---
+
+Here is how your finished code should look — you will probably have chosen different numbers:
 
 ![Random pixel solution](images/random-pixel-solution.png)
 
