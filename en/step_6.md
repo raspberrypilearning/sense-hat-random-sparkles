@@ -16,15 +16,19 @@ from time import sleep
 
 --- hints ---
 --- hint ---
+
 An infinite loop will keep running the code inside it forever. Here is the code to begin an infinite loop. Don't forget that `True` must have a capital `T`.
 
 ```python
 while True:
 ```
+
 --- /hint ---
 
 --- hint ---
+
 Here is what your code should look like:
+
 ```python
 while True:
     x = randint(0, 7)
@@ -34,6 +38,7 @@ while True:
     b = randint(0, 255)
     sense.set_pixel(x, y, r, g, b)
 ```
+
 --- /hint ---
 --- /hints ---
 
