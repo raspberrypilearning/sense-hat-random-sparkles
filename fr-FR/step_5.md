@@ -1,22 +1,22 @@
-## Using the `random` module
+## Utiliser le module `random`
 
-So far you picked your own random numbers, but you can let the computer choose them instead by using the `random` module.
+Jusqu'à présent, tu as choisi tes propres nombres aléatoires, mais tu peux laisser l'ordinateur les choisir à la place en utilisant le module `random`.
 
-+ Add another `import` line at the **top** of your program:
++ Ajoute une autre ligne `import` en **haut** de ton programme :
 
 ```python
 from random import randint
 ```
 
-+ Change your `x` and `y` variables to be equal to a random number between 0 and 7. Now your program will automatically select a random position on the LED matrix.
++ Modifie tes variables `x` et `y` pour qu'elles soient égales à un nombre aléatoire entre 0 et 7. Maintenant, ton programme choisira automatiquement une position aléatoire sur la matrice LED.
 
 [[[generic-python-random]]]
 
-+ Run your program again, and you should see another random pixel being placed on the Sense HAT's display. It will be the same colour you chose previously.
++ Exécute à nouveau ton programme et tu devrais voir un autre pixel aléatoire placé sur l'écran de Sense HAT. Ce sera la même couleur que tu as choisie précédemment.
 
-+ Change your `r`, `g`, and `b` variables to each be equal to a random number between 0 and 255. Now your program will automatically select a random colour.
++ Modifie tes variables `r`, `g`, et `b` pour chacune afin qu'elles soient égales à un nombre aléatoire entre 0 et 255. Maintenant, ton programme choisira automatiquement une couleur aléatoire.
 
-+ Run the program again, and you should see another pixel appear in a random location, this time with a random colour.
++ Exécute à nouveau le programme et tu devrais voir apparaître un autre pixel dans un endroit aléatoire, cette fois avec une couleur aléatoire.
 
 + Run it a few more times, and you should see more of the grid fill up with random pixels.
 
