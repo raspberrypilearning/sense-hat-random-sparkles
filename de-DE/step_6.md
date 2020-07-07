@@ -1,22 +1,22 @@
-## Add a loop
+## Füge eine Schleife hinzu
 
-Rather than running your program over and over by pressing <kbd>F5</kbd>, you can add a loop so that it will keep running by itself.
+Anstatt dein Programm durch Drücken von <kbd>F5</kbd> immer wieder zu starten, kannst du eine Schleife hinzufügen, damit es selbst weiter läuft.
 
-+ You can use the `sleep` module to pause the program between pixels. To do so, first add another `import` to the top of your file.
++ Du kannst das `Schlaf`-Modul verwenden, um das Programm zwischen Pixeln zu pausieren. Füge zunächst einen weiteren `import` am Anfang deiner Datei hinzu.
 
 ```python
 from time import sleep
 ```
 
-+ Add an infinite loop on the line below the `import` statements.
++ Füge dann eine Endlosschleife auf der Zeile unterhalb der `Import`-Anweisungen hinzu.
 
 [[[generic-python-while-true]]]
 
-+ Indent all of the lines of code containing your variables and `set_pixel` so that they are within the loop:
++ Rücke alle Codezeilen, die deine Variablen und `set_pixel` enthalten, ein damit sie innerhalb der Schleife sind:
 
 --- hints --- --- hint ---
 
-An infinite loop will keep running the code inside it forever. Here is the code to begin an infinite loop. Don't forget that `True` must have a capital `T`.
+In einer Endlosschleife wird der darin enthaltene Code für immer ausgeführt. Hier ist der Code, um eine Endlosschleife zu beginnen. Vergiss nicht, dass `True` mit einem großen `T` geschrieben sein muss.
 
 ```python
 while True:
@@ -26,7 +26,7 @@ while True:
 
 --- hint ---
 
-Here is what your code should look like:
+So sollte dein neuer Code aussehen:
 
 ```python
 while True:
@@ -40,11 +40,11 @@ while True:
 
 --- /hint --- --- /hints ---
 
-+ Add a line of code at the bottom of your program to pause for 0.1 seconds. Make sure that this line is indented level with the `set_pixel` line to show that it is inside the loop.
++ Füge am unteren Rand deines Programms eine Codezeile hinzu, um eine Pause von 0,1 Sekunden einzulegen. Vergewissere dich, dass diese Zeile mit der Zeile `set_pixel` eingerückt ist, um zu zeigen, dass sie sich innerhalb der Schleife befindet.
 
 [[[generic-python-sleep]]]
 
 
-+ Run the code, and you should see random sparkles in action!
++ Führe den Code aus und du solltest zufälliges Funkeln in Aktion sehen!
 
-![Finished result](images/finished-result.gif)
+![Fertiges Ergebnis](images/finished-result.gif)
