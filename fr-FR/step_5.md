@@ -18,8 +18,8 @@ from random import randint
 
 + Exécute à nouveau le programme et tu devrais voir apparaître un autre pixel dans un endroit aléatoire, cette fois avec une couleur aléatoire.
 
-+ Run it a few more times, and you should see more of the grid fill up with random pixels.
++ Exécute-le encore plusieurs fois, et tu devrais voir une plus grande partie de la grille se remplir de pixels aléatoires.
 
-If you have the `sense.clear()` line in your code, you will need to remove it. Otherwise, every time the program is re-run, the display will be cleared and your previous pixel will disappear.
+Si tu as la ligne `sense.clear()` dans ton code, tu dois la supprimer. Sinon, chaque fois que le programme est relancé, l'affichage sera effacé et ton pixel précédent disparaîtra.
 
-![Random pixels](images/random-pixels.png)
+![Pixels aléatoires](images/random-pixels.png)
