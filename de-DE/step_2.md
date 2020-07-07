@@ -1,27 +1,27 @@
-## What you will need
+## Was du brauchen wirst
 
 ### Hardware
 
-* A Raspberry Pi
-* A Sense HAT, or the Pi's Sense HAT emulator
+* Einen Raspberry Pi
+* Ein Sense HAT oder Pi's Sense HAT-Emulator
 
-**or**
+**oder**
 
-If you do not have a Raspberry Pi, you can create the project using:
+Wenn du keinen Raspberry Pi hast, kannst du das Projekt mit folgenden Mitteln erstellen:
 
-* Online Sense HAT emulator [on Trinket](https://trinket.io/sense-hat)
+* Online-Sense HAT-Emulator [auf Trinket](https://trinket.io/sense-hat)
 
 ### Software
-If you're using a Raspberry Pi, you will need the [latest version of Raspbian](https://www.raspberrypi.org/downloads/), which already includes the following software packages:
+Wenn du einen Raspberry Pi verwendest, benötigst du die [neueste Version von Raspbian](https://www.raspberrypi.org/downloads/), die bereits folgende Softwarepakete enthält:
 
 - Python 3
-- Sense HAT module for Python 3
+- Sense HAT-Modul für Python 3
 
-If for any reason you need to install a package manually, follow these instructions:
+Wenn du aus irgendeinem Grund ein Paket manuell installieren musst, folge diesen Anweisungen:
 
 [[[rpi-install-software]]]
 
-Type this command into a terminal window to install the Sense HAT package:
+Gib diesen Befehl in ein Terminalfenster ein, um das Sense HAT-Paket zu installieren:
 
 ```bash
 sudo apt-get install sense-hat
