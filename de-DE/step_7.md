@@ -1,9 +1,9 @@
-## Challenge: better sparkles
+## Herausforderung: Besseres Funkeln
 
-+ Can you make the sparkles change more quickly?
++ Kannst du das Funkeln schneller wechseln?
 
-+ Can you make the sparkles appear in pastel colours? (Hint: you normally pick colour variable values within the range of 0 to 255. Reduce the range and see what happens.)
++ Kannst du das Funkeln in Pastellfarben erscheinen lassen? (Hinweis: Normalerweise wählst du Farbvariablenwerte im Bereich von 0 bis 255 aus. Reduziere den Bereich und sieh, was passiert.)
 
-- Try fixing one of the colour values to 0, and see what happens.
+- Versuche, einen der Farbwerte auf 0 zu fixieren und sieh was passiert.
 
-- Try making the sparkles disappear again in a style of your choosing.
+- Versuche, das Funkeln in einem Stil deiner Wahl wieder verschwinden zu lassen.
