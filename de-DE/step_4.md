@@ -1,8 +1,8 @@
-## Setting pixels at random
+## Pixel zufällig einstellen
 
-First, we'll think up some random numbers and use the `set_pixel` function to place a random colour on a random location on the Sense HAT display.
+Zuerst überlegen wir uns einige Zufallszahlen und verwenden die `set_pixel` Funktion, um eine zufällige Farbe an einer zufälligen Stelle auf dem Sense HAT-Display zu platzieren.
 
-+ Open the IDLE editor.
++ Öffne den IDLE-Editor.
 
 [[[rpi-gui-idle-opening]]]
 
