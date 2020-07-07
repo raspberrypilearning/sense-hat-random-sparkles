@@ -1,9 +1,9 @@
-## Challenge: better sparkles
+## Défi : meilleures scintillements
 
-+ Can you make the sparkles change more quickly?
++ Peux-tu faire changer les scintillements plus rapidement ?
 
-+ Can you make the sparkles appear in pastel colours? (Hint: you normally pick colour variable values within the range of 0 to 255. Reduce the range and see what happens.)
++ Peux-tu faire apparaître les scintillements en couleurs pastel ? (Indice : tu choisis normalement des valeurs de variables de couleur entre 0 et 255. Réduis la portée et vois ce qui se passe.)
 
-- Try fixing one of the colour values to 0, and see what happens.
+- Essaie de fixer une des valeurs de couleur à 0, et vois ce qui se passe.
 
-- Try making the sparkles disappear again in a style of your choosing.
+- Essaie de faire disparaître les scintillements dans un style de ton choix.
