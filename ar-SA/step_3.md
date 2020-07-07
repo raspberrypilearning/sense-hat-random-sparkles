@@ -1,12 +1,12 @@
-## Connect to your Sense HAT
+## اتصل بـ Sense HAT الخاص بك
 
-+ If you have a Sense HAT, attach it to your Raspberry Pi.
++ إذا كان لديك Sense HAT ، اربطه بـ Raspberry Pi.
 
 [[[rpi-sensehat-attach]]]
 
-+ If you do not have a Sense HAT, you could create the project using the Sense HAT emulator.
++ إذا لم يكن لديك لوحة Sense HAT، يمكنك إنشاء المشروع باستخدام محاكي Sense HAT.
 
 [[[rpi-sensehat-emulator]]]
 
 
-**Note:** if you are using a Sense HAT, you will be using IDLE for your code. If you are using the Sense HAT emulator, you will be using Trinket. Depending on which option you are using, there may be some differences in the colour of the text highlighting.
+**ملاحظة:** إذا كنت تستخدم لوحة Sense HAT، فستستخدم IDLE لتعليماتك البرمجية. إذا كنت تستخدم محاكي Sense HAT ، فستستخدم Trinket. اعتمادًا على الخيار الذي تستخدمه ، قد تكون هناك بعض الاختلافات في لون تمييز النص.
