@@ -1,12 +1,12 @@
-## Connect to your Sense HAT
+## Stelle die Verbindung zu deinem Sense HAT her
 
-+ If you have a Sense HAT, attach it to your Raspberry Pi.
++ Wenn du einen Sense HAT hast, befestige ihn an deinem Raspberry Pi.
 
 [[[rpi-sensehat-attach]]]
 
-+ If you do not have a Sense HAT, you could create the project using the Sense HAT emulator.
++ Wenn du keinen Sense HAT hast, kannst du das Projekt mit dem Sense HAT-Emulator erstellen.
 
 [[[rpi-sensehat-emulator]]]
 
 
-**Note:** if you are using a Sense HAT, you will be using IDLE for your code. If you are using the Sense HAT emulator, you will be using Trinket. Depending on which option you are using, there may be some differences in the colour of the text highlighting.
+**Hinweis:** Wenn du einen Sense HAT verwendest, wirst du IDLE für deinen Code nutzen. Wenn du den Sense HAT-Emulator verwendest, wirst du Trinket nutzen. Abhängig davon, welche Option du nutzt, gibt es einige Unterschiede in den Farben der Textmarkierung.
