@@ -1,22 +1,22 @@
-## Add a loop
+## Ajouter une boucle
 
-Rather than running your program over and over by pressing <kbd>F5</kbd>, you can add a loop so that it will keep running by itself.
+Plutôt que d'exécuter ton programme encore et encore en appuyant sur <kbd>F5</kbd>, tu peux ajouter une boucle pour qu'elle continue de s'exécuter.
 
-+ You can use the `sleep` module to pause the program between pixels. To do so, first add another `import` to the top of your file.
++ Tu peux utiliser le module `sleep` pour mettre en pause le programme entre les pixels. Pour ce faire, ajoute d'abord un autre `import` en haut de ton fichier.
 
 ```python
 from time import sleep
 ```
 
-+ Add an infinite loop on the line below the `import` statements.
++ Ajoute une boucle infinie sur la ligne sous les instructions `import`.
 
 [[[generic-python-while-true]]]
 
-+ Indent all of the lines of code containing your variables and `set_pixel` so that they are within the loop:
++ Indente toutes les lignes de code contenant tes variables et `set_pixel` afin qu'elles soient dans la boucle :
 
 --- hints --- --- hint ---
 
-An infinite loop will keep running the code inside it forever. Here is the code to begin an infinite loop. Don't forget that `True` must have a capital `T`.
+Une boucle infinie continuera à exécuter le code à l'intérieur indéfiniment. Voici le code pour commencer une boucle infinie. N'oublie pas que `True` doit avoir un `T` en lettre capital.
 
 ```python
 while True:
@@ -26,7 +26,7 @@ while True:
 
 --- hint ---
 
-Here is what your code should look like:
+Voici à quoi devrait ressembler ton code :
 
 ```python
 while True:
@@ -40,11 +40,11 @@ while True:
 
 --- /hint --- --- /hints ---
 
-+ Add a line of code at the bottom of your program to pause for 0.1 seconds. Make sure that this line is indented level with the `set_pixel` line to show that it is inside the loop.
++ Ajoute une ligne de code en bas de ton programme pour mettre en pause pendant 0,1 seconde. Assure-toi que cette ligne est en retrait avec la ligne ` set_pixel ` pour montrer qu'elle est à l'intérieur de la boucle.
 
 [[[generic-python-sleep]]]
 
 
-+ Run the code, and you should see random sparkles in action!
++ Exécute le code, et tu devrais voir des scintillements aléatoires en action !
 
-![Finished result](images/finished-result.gif)
+![Résultat final](images/finished-result.gif)
