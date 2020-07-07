@@ -1,25 +1,25 @@
-## Using the `random` module
+## استخدام وحدة `random`
 
-So far you picked your own random numbers, but you can let the computer choose them instead by using the `random` module.
+حتى الآن قمت باختيار أرقامك العشوائية، ولكن يمكنك السماح للكمبيوتر باختيارها بدلاً من ذلك باستخدام وحدة `random`.
 
-+ Add another `import` line at the **top** of your program:
++ أضف سطراً آخراً من `import` في **أعلى** برنامجك:
 
 ```python
 from random import randint
 ```
 
-+ Change your `x` and `y` variables to be equal to a random number between 0 and 7. Now your program will automatically select a random position on the LED matrix.
++ قم بتغيير المتغيرات `x` و `y` لتصبح مساوية لرقم عشوائي بين 0 و 7. الآن سيقوم برنامجك تلقائياً بتحديد موقع عشوائي على مصفوفة LED.
 
 [[[generic-python-random]]]
 
-+ Run your program again, and you should see another random pixel being placed on the Sense HAT's display. It will be the same colour you chose previously.
++ قم بتشغيل برنامجك مرة أخرى، ويجب أن ترى بكسل عشوائي آخر يتم وضعه على شاشة Sense HAT. سيكون نفس اللون الذي اخترته من قبل.
 
-+ Change your `r`, `g`, and `b` variables to each be equal to a random number between 0 and 255. Now your program will automatically select a random colour.
++ قم بتغيير متغيرات `r`، `g`، و `b` لتصبح مساوية لرقم عشوائي بين 0 و 255. الآن سيقوم برنامجك تلقائياً بتحديد لون عشوائي.
 
-+ Run the program again, and you should see another pixel appear in a random location, this time with a random colour.
++ قم بتشغيل البرنامج مرة أخرى، وسترى بيكسل آخر يظهر في موقع عشوائي، هذه المرة بلون عشوائي.
 
-+ Run it a few more times, and you should see more of the grid fill up with random pixels.
++ قم بتشغيله عدة مرات اخرى، ويجب أن ترى المزيد من الشبكة مليئة بالبكسلات العشوائية.
 
-If you have the `sense.clear()` line in your code, you will need to remove it. Otherwise, every time the program is re-run, the display will be cleared and your previous pixel will disappear.
+إذا كان لديك سطر `sense.clear()` في التعليمات البرمجية بك، ستحتاج إلى إزالته. خلاف ذلك، في كل مرة يتم فيها إعادة تشغيل البرنامج، سيتم مسح الشاشة وستختفي وحدة البكسل السابقة.
 
-![Random pixels](images/random-pixels.png)
+![بكسلات عشوائية](images/random-pixels.png)
