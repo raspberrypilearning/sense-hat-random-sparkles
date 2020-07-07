@@ -1,22 +1,22 @@
 ## Add a loop
 
-Rather than running your program over and over by pressing <kbd>F5</kbd>, you can add a loop so that it will keep running by itself.
+بدلاً من تشغيل برنامجك مراراً وتكراراً عن طريق الضغط على <kbd>F5</kbd>، يمكنك إضافة حلقة بحيث تستمر في التشغيل من تلقاء نفسها.
 
-+ You can use the `sleep` module to pause the program between pixels. To do so, first add another `import` to the top of your file.
++ يمكنك استخدام الوحدة `sleep` لإيقاف البرنامج بين البكسلات. للقيام بذلك، أولاً أضف `import` اخرى إلى الجزء العلوي من ملفك.
 
 ```python
 from time import sleep
 ```
 
-+ Add an infinite loop on the line below the `import` statements.
++ أضف حلقة لا حدود لها على السطر الذي يلي عبارة `import`.
 
 [[[generic-python-while-true]]]
 
-+ Indent all of the lines of code containing your variables and `set_pixel` so that they are within the loop:
++ قم باستبعاد جميع أسطر التعليمات البرمجية التي تحتوي على المتغيرات و `set_pixel` بحيث تكون داخل حلقة التكرار:
 
 --- hints --- --- hint ---
 
-An infinite loop will keep running the code inside it forever. Here is the code to begin an infinite loop. Don't forget that `True` must have a capital `T`.
+الحلقة اللانهائية سوف تستمر في تشغيل التعليمات البرمجية بداخلها إلى الأبد. إليك التعليمات البرمجية لبدء حلقة لا نهائية. لا تنسى أن `True` يجب أن يكون الحرف `T` كبير.
 
 ```python
 while True:
@@ -26,7 +26,7 @@ while True:
 
 --- hint ---
 
-Here is what your code should look like:
+و هذا ما يجب أن تبدو عليه التعليمات البرمجية الخاصة بك:
 
 ```python
 while True:
@@ -40,11 +40,11 @@ while True:
 
 --- /hint --- --- /hints ---
 
-+ Add a line of code at the bottom of your program to pause for 0.1 seconds. Make sure that this line is indented level with the `set_pixel` line to show that it is inside the loop.
++ أضف سطراً من التعليمات البرمجية في الجزء السفلي من برنامجك لإيقاف مؤقت لمدة 0.1 ثانية. تأكد من أن هذا السطر ذو مسافة بادئة مع سطر `set_pixel` لإظهار أنه داخل حلقة التكرار.
 
 [[[generic-python-sleep]]]
 
 
-+ Run the code, and you should see random sparkles in action!
++ قم بتشغيل التعليمات البرمجية ، ويجب ان ترى بريقًا عشوائيًا في العمل!
 
-![Finished result](images/finished-result.gif)
+![النتيجة النهائية](images/finished-result.gif)
