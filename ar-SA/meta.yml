@@ -1,7 +1,7 @@
 ---
-title: Sense HAT random sparkles
+title: البريق العشوائي Sense HAT
 hero_image: images/banner.png
-description: Let your Sense HAT shine with pride
+description: دع Sense HAT الخاص بك يلمع بفخر
 original_url: https://raspberrypi.org/learning/sense-hat-random-sparkles
 theme: blue
 duration: 2
@@ -18,13 +18,13 @@ version: 4
 last_tested: 2018-01-01
 steps:
   - 
-    title: Introduction
+    title: المقدمة
   - 
-    title: What you will need
+    title: ما ستحتاج إليه
   - 
-    title: Connect to your Sense HAT
+    title: اتصل بـ Sense HAT الخاص بك
   - 
-    title: Setting pixels at random
+    title: ضبط وحدات البكسل عشوائيا
   - 
     title: Using the random module
   - 
