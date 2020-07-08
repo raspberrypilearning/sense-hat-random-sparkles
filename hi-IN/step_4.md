@@ -1,65 +1,65 @@
-## Setting pixels at random
+## यादृच्छिक पर पिक्सेल (pixel) की स्थापना
 
-First, we'll think up some random numbers and use the `set_pixel` function to place a random colour on a random location on the Sense HAT display.
+सबसे पहले, हम कुछ यादृच्छिक संख्याओं को सोचेंगे और `set_pixel` फंक्शन का उपयोग कर Sense HAT डिस्प्ले पर यादृच्छिक स्थान पर यादृच्छिक रंग दिखाएंगे।
 
-+ Open the IDLE editor.
++ IDLE संपादक खोलें।
 
 [[[rpi-gui-idle-opening]]]
 
-+ Create a new file and save it as `sparkles.py`.
++ एक नयी फ़ाइल बनाएं और उसे `sparkles.py` के नाम से सहेजें।
 
-+ In the new file, start by importing the `SenseHat` module:
++ नई फ़ाइल में, `SenseHat` मॉड्यूल आयात करके शुरू करें:
 
     ```python
     from sense_hat import SenseHat
     ```
 
-+ Next, create a connection to your Sense HAT by adding this line of code:
++ अगला, इस कोड को जोड़कर अपने Sense HAT से एक कनेक्शन बनाएं:
 
     ```python
     sense = SenseHat()
     ```
 
 
-We will then define x and y, to choose which pixel on the Sense HAT will light.
+फिर हम x और y को परिभाषित करेंगे, यह चुनने के लिए कि Sense HAT पर कौन सा पिक्सेल (pixel) प्रकाश देगा।
 
-+ Create a variable called `x`, and set it equal to a number of your choice between 0 and 7. This will be the x coordinate of your pixel on the display. [[[generic-python-creating-a-variable]]]
++ एक वैरिएबल बनाएं जिसे `x` कहा जाता है, और इसे 0 और 7 के बीच अपनी पसंद की संख्या के बराबर सेट करें। यह डिस्प्ले पर आपके पिक्सेल (pixel) का x समन्वय होगा। [[[generic-python-creating-a-variable]]]
 
-+ Create another variable called `y`, and set it equal to another number between 0 and 7. This will be the y coordinate of your pixel on the display.
-
-
-+ To choose the colour of your pixel, think of three numbers between 0 and `255`, then assign them to variables called `r`, `g`, and `b`. These variables will represent the colour of your pixel as amounts of red (r), green (g), and blue (b).
++ एक और वैरिएबल बनाएं जिसे `y` कहा जाता है, और इसे 0 और 7 के बीच अपनी पसंद की संख्या के बराबर सेट करें। यह डिस्प्ले पर आपके पिक्सेल (pixel) का y समन्वय होगा।
 
 
-+ Now use the `set_pixel` function to place a pixel with your randomly chosen colour at your randomly chosen location on the display.
++ अपने पिक्सेल (pixel) का रंग चुनने के लिए, 0 और `255` के बीच तीन संख्याओं के बारे में सोचें, फिर उन्हें `r`, `g`, और `b` नामक वेरिएबल पर नियुक्त करें। ये वेरिएबल red (r), green (g), और blue (b) की मात्रा के रूप में आपके पिक्सेल के रंग का प्रतिनिधित्व करेंगे।
 
-**Note:** the collapsible directions below use a different filename than yours, and uses Trinket instead of IDLE.
+
++ अब `set_pixel` फ़ंक्शन का उपयोग करें पिक्सेल (pixel) को आपके यादृच्छिक रंग के साथ​ डिस्प्ले पर आपके यादृच्छिक स्थान पर रखने के लिए।
+
+**नोट:** नीचे दिए गए संक्षिप्त दिशा-निर्देश आपके से भिन्न फ़ाइल नाम का उपयोग करते हैं, और IDLE के बजाय Trinket का उपयोग करते हैं।
 
 [[[rpi-sensehat-single-pixel]]]
 
-The `set_pixel` method takes data in the following order: x coordinate, y coordinate, red, green, blue
+`set_pixel` विधि निम्नलिखित क्रम में डेटा लेती है: x समन्वय, y समन्वय, red, green, blue
 
-To define your `set_pixel` method, plug the names of your variables into the question marks in this line of code, in the right order: x coordinate, y coordinate, red, green, blue.
+अपने `set_pixel` विधि को परिभाषित करने के लिए, कोड की इस पंक्ति में अपने वेरिएबल के नाम को प्रश्न चिह्न में प्लग करें, सही क्रम में: x समन्वय, y समन्वय, red, green, blue।
 
 ```python
 sense.set_pixel(?, ?, ?, ?, ?)
 ```
 
-View the hint below if you are stuck.
+नीचे दिए गए सहायक-प्रस्ताव देखें यदि आप फंस गए हैं।
 
 --- hints ---
 
 --- hint ---
 
-Here is how your finished code should look — you will probably have chosen different numbers:
+यहां बताया गया है कि आपका तैयार कोड कैसा दिखना चाहिए - आपने शायद अलग-अलग संख्याएं चुनी होंगी:
 
-![Random pixel solution](images/random-pixel-solution.png)
+![यादृच्छिक पिक्सेल (pixel) समाधान](images/random-pixel-solution.png)
 
 --- /hint ---
 
 --- /hints ---
 
 
-+ Run your code by pressing <kbd>F5</kbd>. You should see a single LED light up on the Sense HAT's LED display.
++ <kbd>F5</kbd> दबाकर कोड को (रन) Run करें। आपको Sense HAT के LED डिस्प्ले पर एक अकेली LED प्रकाशित दिखनी चाहिए।
 
-+ Now change all of the numbers in your program and run the program again. A second LED should turn on.
++ अब अपने प्रोग्राम की सभी संख्याओं को बदलें और प्रोग्राम को दोबारा चलाएं। एक दूसरी LED चालू होनी चाहिए।
