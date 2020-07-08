@@ -1,7 +1,7 @@
 ---
-title: Sense HAT random sparkles
+title: Sense HAT τυχαίες λάμψεις
 hero_image: images/banner.png
-description: Let your Sense HAT shine with pride
+description: Αφήστε το Sense HAT να λάμψει με υπερηφάνεια
 original_url: https://raspberrypi.org/learning/sense-hat-random-sparkles
 theme: blue
 duration: 2
@@ -18,16 +18,16 @@ version: 4
 last_tested: 2018-01-01
 steps:
   - 
-    title: Introduction
+    title: Εισαγωγή
   - 
-    title: What you will need
+    title: Τι θα χρειαστείς
   - 
-    title: Connect to your Sense HAT
+    title: Σύνδεση με το Sense HAT
   - 
-    title: Setting pixels at random
+    title: Ρύθμιση τυχαίων εικονοστοιχείων
   - 
-    title: Using the random module
+    title: Χρήση του module random
   - 
-    title: Add a loop
+    title: Προσθήκη βρόχου
   - 
-    title: "Challenge: better sparkles"
+    title: "Πρόκληση: καλύτερες λάμψεις"
