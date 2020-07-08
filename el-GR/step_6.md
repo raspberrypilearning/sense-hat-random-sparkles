@@ -1,22 +1,22 @@
-## Add a loop
+## Προσθήκη βρόχου
 
-Rather than running your program over and over by pressing <kbd>F5</kbd>, you can add a loop so that it will keep running by itself.
+Αντί να εκτελείς το πρόγραμμά σου ξανά και ξανά πατώντας <kbd> F5 </kbd>, μπορείς να προσθέσεις έναν βρόχο έτσι ώστε να συνεχίζει να λειτουργεί από μόνο του.
 
-+ You can use the `sleep` module to pause the program between pixels. To do so, first add another `import` to the top of your file.
++ Μπορείς να χρησιμοποιείς το module ` sleep` για να γίνεται παύση του προγράμματος μεταξύ των εικονοστοιχείων. Για να το κάνεις αυτό, πρώτα πρόσθεσε ένα ακόμα ` import` στην αρχή του αρχείου σου.
 
 ```python
 from time import sleep
 ```
 
-+ Add an infinite loop on the line below the `import` statements.
++ Πρόσθεσε έναν ατέρμονα βρόχο στη γραμμή κάτω από τις δηλώσεις ` import`.
 
 [[[generic-python-while-true]]]
 
-+ Indent all of the lines of code containing your variables and `set_pixel` so that they are within the loop:
++ Τοποθέτησε σε εσοχή όλες τις γραμμές του κώδικα που περιέχουν τις μεταβλητές σου και ` set_pixel ` έτσι ώστε να βρίσκονται μέσα στον βρόχο:
 
 --- hints --- --- hint ---
 
-An infinite loop will keep running the code inside it forever. Here is the code to begin an infinite loop. Don't forget that `True` must have a capital `T`.
+Ο κώδικας που βρίσκεται μέσα στον ατέρμονα βρόχο θα τρέχει για πάντα. Εδώ είναι ο κώδικας για να ξεκινήσεις έναν ατέρμονα βρόχο. Μην ξεχνάς ότι το ` True` πρέπει να είναι με κεφαλαίο ` T `.
 
 ```python
 while True:
@@ -26,7 +26,7 @@ while True:
 
 --- hint ---
 
-Here is what your code should look like:
+Έτσι πρέπει να φαίνεται ο νέος σου κώδικας:
 
 ```python
 while True:
@@ -40,11 +40,11 @@ while True:
 
 --- /hint --- --- /hints ---
 
-+ Add a line of code at the bottom of your program to pause for 0.1 seconds. Make sure that this line is indented level with the `set_pixel` line to show that it is inside the loop.
++ Πρόσθεσε μια γραμμή κώδικα στο κάτω μέρος του προγράμματός σου για να γίνεται παύση για 0,1 δευτερόλεπτα. Βεβαιώσου ότι αυτή η γραμμή είναι στο ίδιο επίπεδο εσοχής με την γραμμή ` set_pixel ` για να δείξεις ότι βρίσκεται μέσα στο βρόχο.
 
 [[[generic-python-sleep]]]
 
 
-+ Run the code, and you should see random sparkles in action!
++ Εκτέλεσε τον κώδικα και θα πρέπει να δεις τυχαίες λάμψεις σε δράση!
 
-![Finished result](images/finished-result.gif)
+![Τελικό αποτέλεσμα](images/finished-result.gif)
