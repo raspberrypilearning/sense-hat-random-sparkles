@@ -1,27 +1,27 @@
-## What you will need
+## Τι θα χρειαστείς
 
-### Hardware
+### Υλικό( Hardware)
 
-* A Raspberry Pi
-* A Sense HAT, or the Pi's Sense HAT emulator
+* Ένα Raspberry Pi
+* Ένα Sense HAT ή τον προσομοιωτή του Pi Sense HAT
 
-**or**
+**ή**
 
-If you do not have a Raspberry Pi, you can create the project using:
+Εάν δεν έχεις Raspberry Pi, μπορείς να δημιουργήσεις το έργο χρησιμοποιώντας:
 
-* Online Sense HAT emulator [on Trinket](https://trinket.io/sense-hat)
+* Τον Online Sense HAT προσομοιωτή [ στο Trinket ](https://trinket.io/sense-hat)
 
-### Software
-If you're using a Raspberry Pi, you will need the [latest version of Raspbian](https://www.raspberrypi.org/downloads/), which already includes the following software packages:
+### Λογισμικό
+Εάν χρησιμοποιείς Raspberry Pi, θα χρειαστείς την [ τελευταία έκδοση του Raspbian ](https://www.raspberrypi.org/downloads/), η οποία ήδη περιλαμβάνει τα ακόλουθα πακέτα λογισμικού:
 
 - Python 3
-- Sense HAT module for Python 3
+- Module Sense HAT για Python 3
 
-If for any reason you need to install a package manually, follow these instructions:
+Εάν για οποιονδήποτε λόγο πρέπει να εγκαταστήσεις ένα πακέτο με μη αυτόματο τρόπο, ακολούθησε αυτές τις οδηγίες:
 
 [[[rpi-install-software]]]
 
-Type this command into a terminal window to install the Sense HAT package:
+Πληκτρολόγησε αυτήν την εντολή σε ένα παράθυρο τερματικού για να εγκαταστήσεις το πακέτο Sense HAT:
 
 ```bash
 sudo apt-get install sense-hat
