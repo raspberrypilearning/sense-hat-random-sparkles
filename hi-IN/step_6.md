@@ -1,22 +1,22 @@
-## Add a loop
+## एक लूप जोड़ें
 
-Rather than running your program over and over by pressing <kbd>F5</kbd>, you can add a loop so that it will keep running by itself.
+<kbd>F5</kbd> दबाकर अपने कार्यक्रम को बार-बार चलाने के बजाय, आप एक लूप जोड़ सकते हैं ताकि यह अपने आप से चलता रहे।
 
-+ You can use the `sleep` module to pause the program between pixels. To do so, first add another `import` to the top of your file.
++ आप `sleep` मॉड्यूल का उपयोग कर सकते हैं पिक्सेल (pixel) के बीच प्रोग्राम को रोकने के लिए। ऐसा करने के लिए, पहले दूसरा `import` जोड़ें आपकी फ़ाइल के शीर्ष पर।
 
 ```python
 from time import sleep
 ```
 
-+ Add an infinite loop on the line below the `import` statements.
++ एक​ अपरिमित लूप जोडें `import` विवरण के नीचे की पंक्ति पर।
 
 [[[generic-python-while-true]]]
 
-+ Indent all of the lines of code containing your variables and `set_pixel` so that they are within the loop:
++ अपने वेरिएबल और `set_pixel` वाले कोड की सभी पंक्तियों को इंडेंट करें ताकि वे लूप के भीतर हों:
 
 --- hints --- --- hint ---
 
-An infinite loop will keep running the code inside it forever. Here is the code to begin an infinite loop. Don't forget that `True` must have a capital `T`.
+एक अपरिमित लूप इसके अंदर के कोड को हमेशा के लिए चालू रखेगा। यहाँ एक अपरिमित लूप शुरू करने के लिए कोड है। यह मत भुलिएगा कि `True` मे `T` बड़ा होना चाहिए।
 
 ```python
 while True:
@@ -26,7 +26,7 @@ while True:
 
 --- hint ---
 
-Here is what your code should look like:
+आपका कोड ऐसा दिखना चाहिए:
 
 ```python
 while True:
@@ -40,11 +40,11 @@ while True:
 
 --- /hint --- --- /hints ---
 
-+ Add a line of code at the bottom of your program to pause for 0.1 seconds. Make sure that this line is indented level with the `set_pixel` line to show that it is inside the loop.
++ 0.1 सेकंड के लिए रुकने के लिए अपने प्रोग्राम के निचले भाग में कोड की एक पंक्ति जोड़ें। सुनिश्चित करें कि यह लाइन `set_pixel` के साथ इंडेंटेड स्तर पर​ है यह दिखाने के लिए कि यह लूप के अंदर है।
 
 [[[generic-python-sleep]]]
 
 
-+ Run the code, and you should see random sparkles in action!
++ कोड को चलाने के पश्च्यात आपको यादृच्छिक चमक उठती दिखाई देनी चाहिए!
 
-![Finished result](images/finished-result.gif)
+![समाप्त हुआ परिणाम](images/finished-result.gif)
