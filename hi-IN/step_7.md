@@ -1,9 +1,9 @@
-## Challenge: better sparkles
+## चुनौती: बेहतर चमक
 
-+ Can you make the sparkles change more quickly?
++ क्या आप चमक को अधिक तेज़ी से बदल सकते हैं?
 
-+ Can you make the sparkles appear in pastel colours? (Hint: you normally pick colour variable values within the range of 0 to 255. Reduce the range and see what happens.)
++ क्या आप पेस्टल रंगों में चमक दिखा सकते हैं? (सहायक-प्रस्ताव: आप आमतौर पर 0 से 255 की सीमा के भीतर रंग वेरियबल मान लेते हैं। सीमा कम करें और देखें कि क्या होता है।)
 
-- Try fixing one of the colour values to 0, and see what happens.
+- प्रयास करें रंग मानों में से किसी एक को 0 तक​ पक्का करने का, और देखें कि क्या होता है।
 
-- Try making the sparkles disappear again in a style of your choosing.
+- अपने चयन की शैली में चमक को गायब करने का फिर से प्रयास​ करे।
