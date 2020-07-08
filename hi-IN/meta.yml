@@ -1,7 +1,7 @@
 ---
-title: Sense HAT random sparkles
+title: Sense HAT यादृच्छिक चमक
 hero_image: images/banner.png
-description: Let your Sense HAT shine with pride
+description: अपने Sense HAT को गर्व के साथ चमकने दें
 original_url: https://raspberrypi.org/learning/sense-hat-random-sparkles
 theme: blue
 duration: 2
@@ -18,16 +18,16 @@ version: 4
 last_tested: 2018-01-01
 steps:
   - 
-    title: Introduction
+    title: भूमिका
   - 
-    title: What you will need
+    title: आपको किन चीज़ों की आवश्यकता होगी
   - 
-    title: Connect to your Sense HAT
+    title: अपने Sense HAT से कनेक्ट करें
   - 
-    title: Setting pixels at random
+    title: यादृच्छिक पर पिक्सेल (pixel) की स्थापना
   - 
-    title: Using the random module
+    title: random मॉड्यूल का उपयोग करना
   - 
-    title: Add a loop
+    title: एक लूप जोड़ें
   - 
-    title: "Challenge: better sparkles"
+    title: "चुनौती: बेहतर चमक"
