@@ -1,15 +1,15 @@
-## Introduction
+## Εισαγωγή
 
-Create amazing random sparkles with your Sense HAT. In doing so, you will learn how to choose random positions on the Sense HAT's LED display as well as random colours to light up the LEDs.
+Δημιούργησε εκπληκτικές τυχαίες λάμψεις με το Sense HAT. Με αυτόν τον τρόπο θα μάθεις πώς να επιλέγεις τυχαίες θέσεις στην LED οθόνη του Sense HAT καθώς και τυχαία χρώματα με τα οποία θα ανάψουν τα LED.
 
-### What you will make
+### Τι θα φτιάξεις
 
-Here is a preview of the random sparkle effect you will create — click **Run** to see it in action. <iframe src="https://trinket.io/embed/python/55af2b45f5?outputOnly=true&runOption=run" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Ακολουθεί μια προεπισκόπηση του τυχαίου εφέ λάμψης που θα δημιουργήσεις - κάνε κλικ στο ** Run** για να το δεις σε δράση. <iframe src="https://trinket.io/embed/python/55af2b45f5?outputOnly=true&runOption=run" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
 
 
-### What you will learn
+### Τι θα μάθεις
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
+Αυτό το έργο καλύπτει στοιχεία από τις ακόλουθες ενότητες του [Προγράμματος Μαθημάτων Ψηφιακής Δημιουργίας του Raspberry Pi](https://www.raspberrypi.org/curriculum/):
 
-- [Use basic programming constructs to create simple programs](https://www.raspberrypi.org/curriculum/programming/creator)
-- [Use basic digital, analogue, and electromechanical components](https://www.raspberrypi.org/curriculum/physical-computing/creator)
+- [Χρησιμοποίησε βασικές δομές προγραμματισμού για να δημιουργήσεις απλά προγράμματα](https://www.raspberrypi.org/curriculum/programming/creator)
+- [Χρησιμοποίησε βασικά ψηφιακά, αναλογικά και ηλεκτρομηχανικά εξαρτήματα](https://www.raspberrypi.org/curriculum/physical-computing/creator)
