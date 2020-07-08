@@ -1,9 +1,9 @@
-## Challenge: better sparkles
+## Πρόκληση: καλύτερες λάμψεις
 
-+ Can you make the sparkles change more quickly?
++ Μπορείς να κάνεις τις λάμψεις να αλλάζουν πιο γρήγορα;
 
-+ Can you make the sparkles appear in pastel colours? (Hint: you normally pick colour variable values within the range of 0 to 255. Reduce the range and see what happens.)
++ Μπορείς να κάνεις τις λάμψεις να εμφανίζονται σε παστέλ χρώματα; (Υπόδειξη: συνήθως να επιλέγεις τιμές χρώματος από 0 έως 255 για τις μεταβλητές. Μείωσε το εύρος και δες τι συμβαίνει.)
 
-- Try fixing one of the colour values to 0, and see what happens.
+- Δοκίμασε να δώσεις την τιμή 0 σε ένα χρώμα και δες τι θα συμβεί.
 
-- Try making the sparkles disappear again in a style of your choosing.
+- Δοκίμασε να εξαφανίσεις ξανά τις λάμψεις με ένα στυλ της επιλογής σου.
