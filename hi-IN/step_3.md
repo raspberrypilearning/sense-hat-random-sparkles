@@ -1,12 +1,12 @@
-## Connect to your Sense HAT
+## अपने Sense HAT से कनेक्ट करें
 
-+ If you have a Sense HAT, attach it to your Raspberry Pi.
++ यदि आपके पास एक Sense HAT है, तो इसे अपने Raspberry Pi से जोड़ें।
 
 [[[rpi-sensehat-attach]]]
 
-+ If you do not have a Sense HAT, you could create the project using the Sense HAT emulator.
++ यदि आपके पास Sense HAT नहीं है, तो आप Sense HAT एमुलेटर का उपयोग करके परियोजना बना सकते हैं।
 
 [[[rpi-sensehat-emulator]]]
 
 
-**Note:** if you are using a Sense HAT, you will be using IDLE for your code. If you are using the Sense HAT emulator, you will be using Trinket. Depending on which option you are using, there may be some differences in the colour of the text highlighting.
+**नोट:** यदि आप Sense HAT का उपयोग कर रहे हैं, तो आप अपने कोड के लिए IDLE का उपयोग करेंगे। यदि आप Sense HAT एमुलेटर का उपयोग कर रहे हैं, तो आप Trinket का उपयोग करेंगे। आप किस विकल्प का उपयोग कर रहे हैं इसके आधार पर, पाठ हाइलाइटिंग के रंग में कुछ अंतर हो सकते हैं।
