@@ -1,25 +1,25 @@
-## Using the `random` module
+## Χρησιμοποιώντας το module ` random`
 
-So far you picked your own random numbers, but you can let the computer choose them instead by using the `random` module.
+Μέχρι στιγμής έχεις επιλέξει τους δικούς σου τυχαίους αριθμούς, αλλά μπορείς να αφήσεις τον υπολογιστή να τους επιλέξει χρησιμοποιώντας το module ` random`.
 
-+ Add another `import` line at the **top** of your program:
++ Πρόσθεσε άλλη μια γραμμή ` import` στην **αρχή ** του προγράμματός σου:
 
 ```python
 from random import randint
 ```
 
-+ Change your `x` and `y` variables to be equal to a random number between 0 and 7. Now your program will automatically select a random position on the LED matrix.
++ Άλλαξε τις τιμές των μεταβλητών ` x ` και ` y` με τυχαίους αριθμούς μεταξύ 0 και 7. Τώρα το πρόγραμμά σου θα επιλέγει αυτόματα μια τυχαία θέση στον πίνακα LED.
 
 [[[generic-python-random]]]
 
-+ Run your program again, and you should see another random pixel being placed on the Sense HAT's display. It will be the same colour you chose previously.
++ Εκτέλεσε ξανά το πρόγραμμά σου και θα πρέπει να δεις ένα άλλο τυχαίο pixel να εμφανίζεται στην οθόνη του Sense HAT. Θα είναι ίδιο χρώμα με αυτό που επέλεξες προηγουμένως.
 
-+ Change your `r`, `g`, and `b` variables to each be equal to a random number between 0 and 255. Now your program will automatically select a random colour.
++ Άλλαξε τις τιμές των μεταβλητών ` r `, ` g `, και ` b ` με τυχαίους αριθμούς μεταξύ 0 και 255. Τώρα το πρόγραμμά σου θα επιλέξει αυτόματα ένα τυχαίο χρώμα.
 
-+ Run the program again, and you should see another pixel appear in a random location, this time with a random colour.
++ Εκτέλεσε ξανά το πρόγραμμα και θα πρέπει να δεις ένα άλλο εικονοστοιχείο να εμφανίζεται σε μια τυχαία θέση, αυτή τη φορά με ένα τυχαίο χρώμα.
 
-+ Run it a few more times, and you should see more of the grid fill up with random pixels.
++ Εκτέλεσε το πρόγραμμα μερικές ακόμη φορές και θα πρέπει να δεις την οθόνη να γεμίζει με τυχαία εικονοστοιχεία.
 
-If you have the `sense.clear()` line in your code, you will need to remove it. Otherwise, every time the program is re-run, the display will be cleared and your previous pixel will disappear.
+Εάν έχεις την γραμμή ` sense.clear () ` στον κώδικά σου, θα πρέπει να την αφαιρέσεις. Διαφορετικά, κάθε φορά που το πρόγραμμα εκτελείται ξανά, η οθόνη θα καθαρίζει και το προηγούμενο εικονοστοιχείο θα εξαφανίζεται.
 
-![Random pixels](images/random-pixels.png)
+![Τυχαία εικονοστοιχεία](images/random-pixels.png)
