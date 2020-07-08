@@ -1,20 +1,20 @@
-## Setting pixels at random
+## Ρύθμιση τυχαίων εικονοστοιχείων
 
-First, we'll think up some random numbers and use the `set_pixel` function to place a random colour on a random location on the Sense HAT display.
+Αρχικά, θα σκεφτούμε μερικούς τυχαίους αριθμούς και θα χρησιμοποιήσουμε τη συνάρτηση ` set_pixel ` για να τοποθετήσουμε ένα τυχαίο χρώμα σε μια τυχαία θέση στην οθόνη Sense HAT.
 
-+ Open the IDLE editor.
++ Άνοιξε το πρόγραμμα επεξεργασίας IDLE.
 
 [[[rpi-gui-idle-opening]]]
 
-+ Create a new file and save it as `sparkles.py`.
++ Δημιούργησε ένα νέο αρχείο και αποθήκευσέ το ως ` sparkles.py `.
 
-+ In the new file, start by importing the `SenseHat` module:
++ Στο νέο αρχείο, ξεκίνησε κάνοντας import το module ` SenseHat `:
 
     ```python
     from sense_hat import SenseHat
     ```
 
-+ Next, create a connection to your Sense HAT by adding this line of code:
++ Στη συνέχεια, δημιούργησε μια σύνδεση με το δικό σου Sense HAT προσθέτοντας αυτήν τη γραμμή κώδικα:
 
     ```python
     sense = SenseHat()
@@ -23,9 +23,9 @@ First, we'll think up some random numbers and use the `set_pixel` function to pl
 
 We will then define x and y, to choose which pixel on the Sense HAT will light.
 
-+ Create a variable called `x`, and set it equal to a number of your choice between 0 and 7. This will be the x coordinate of your pixel on the display. [[[generic-python-creating-a-variable]]]
++ Δημιούργησε μια μεταβλητή με όνομα ` x ` και τιμή έναν αριθμό της επιλογής σου μεταξύ 0 και 7. This will be the x coordinate of your pixel on the display. [[[generic-python-creating-a-variable]]]
 
-+ Create another variable called `y`, and set it equal to another number between 0 and 7. This will be the y coordinate of your pixel on the display.
++ Δημιούργησε μια άλλη μεταβλητή με όνομα ` y ` και τιμή έναν άλλο αριθμό μεταξύ 0 και 7. Αυτή θα είναι η συντεταγμένη y του εικονοστοιχείου σου στην οθόνη.
 
 
 + To choose the colour of your pixel, think of three numbers between 0 and `255`, then assign them to variables called `r`, `g`, and `b`. These variables will represent the colour of your pixel as amounts of red (r), green (g), and blue (b).
