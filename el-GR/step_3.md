@@ -1,12 +1,12 @@
-## Connect to your Sense HAT
+## Σύνδεση με το Sense HAT
 
-+ If you have a Sense HAT, attach it to your Raspberry Pi.
++ Αν έχεις ένα Sense HAT, σύνδεσέ το στο Raspberry Pi.
 
 [[[rpi-sensehat-attach]]]
 
-+ If you do not have a Sense HAT, you could create the project using the Sense HAT emulator.
++ Εάν δεν έχεις Sense HAT, μπορείς να δημιουργήσεις το έργο χρησιμοποιώντας τον προσομοιωτή Sense HAT.
 
 [[[rpi-sensehat-emulator]]]
 
 
-**Note:** if you are using a Sense HAT, you will be using IDLE for your code. If you are using the Sense HAT emulator, you will be using Trinket. Depending on which option you are using, there may be some differences in the colour of the text highlighting.
+** Σημείωση: ** εάν χρησιμοποιείς Sense HAT, θα χρησιμοποιήσεις το IDLE για τον κώδικά σου. Εάν χρησιμοποιείς τον προσομοιωτή Sense HAT, θα χρησιμοποιήσεις το Trinket. Ανάλογα με την επιλογή σου, ενδέχεται να υπάρχουν κάποιες διαφορές στο χρώμα της επισήμανσης του κειμένου.
