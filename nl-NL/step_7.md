@@ -1,9 +1,9 @@
-## Challenge: better sparkles
+## Uitdaging: betere fonkelingen
 
-+ Can you make the sparkles change more quickly?
++ Kun je de fonkelingen sneller laten veranderen?
 
-+ Can you make the sparkles appear in pastel colours? (Hint: you normally pick colour variable values within the range of 0 to 255. Reduce the range and see what happens.)
++ Kun je de fonkelingen in pastelkleuren laten verschijnen? (Hint: normaal kies je kleurvariabele waarden binnen het bereik van 0 tot 255. Verklein het bereik en kijk wat er gebeurt.)
 
-- Try fixing one of the colour values to 0, and see what happens.
+- Probeer een van de kleurwaarden op 0 te zetten en kijk wat er gebeurt.
 
-- Try making the sparkles disappear again in a style of your choosing.
+- Probeer de fonkelingen weer te laten verdwijnen in een stijl naar jouw keuze.
