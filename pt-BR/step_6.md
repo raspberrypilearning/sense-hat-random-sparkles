@@ -1,22 +1,22 @@
-## Add a loop
+## Adicione um laço
 
-Rather than running your program over and over by pressing <kbd>F5</kbd>, you can add a loop so that it will keep running by itself.
+Ao invés de executar seu programa várias vezes pressionando <kbd>F5</kbd>, você pode adicionar um laço para que ele continue rodando sozinho.
 
-+ You can use the `sleep` module to pause the program between pixels. To do so, first add another `import` to the top of your file.
++ Você pode utilizar o módulo `sleep` para pausar o programa entre pixels. Para fazer isso, primeiro adicione outro `import` no topo do seu arquivo.
 
 ```python
 from time import sleep
 ```
 
-+ Add an infinite loop on the line below the `import` statements.
++ Adicione um laço infinito na linha abaixo dos comandos `import`.
 
 [[[generic-python-while-true]]]
 
-+ Indent all of the lines of code containing your variables and `set_pixel` so that they are within the loop:
++ Indente todas as linhas de código que contêm suas variáveis e `set_pixel` para que elas estejam dentro do laço:
 
 --- hints --- --- hint ---
 
-An infinite loop will keep running the code inside it forever. Here is the code to begin an infinite loop. Don't forget that `True` must have a capital `T`.
+Um laço infinito continuará executando o código dentro dele para sempre. Aqui está o código para começar um laço infinito. Não se esqueça de que `True` deve ter uma letra maiúscula `T`.
 
 ```python
 while True:
@@ -26,7 +26,7 @@ while True:
 
 --- hint ---
 
-Here is what your code should look like:
+Aqui está como seu código deve se parecer:
 
 ```python
 while True:
@@ -40,11 +40,11 @@ while True:
 
 --- /hint --- --- /hints ---
 
-+ Add a line of code at the bottom of your program to pause for 0.1 seconds. Make sure that this line is indented level with the `set_pixel` line to show that it is inside the loop.
++ Adicione uma linha de código na parte inferior do seu programa para pausar por 0,1 segundo. Certifique-se de que esta linha esteja indentada com a linha `set_pixel` para mostrar que está dentro do laço.
 
 [[[generic-python-sleep]]]
 
 
-+ Run the code, and you should see random sparkles in action!
++ Execute o código e você verá brilhos aleatórios em ação!
 
-![Finished result](images/finished-result.gif)
+![Resultado final](images/finished-result.gif)
