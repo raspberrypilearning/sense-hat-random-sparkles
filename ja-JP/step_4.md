@@ -1,65 +1,65 @@
-## Setting pixels at random
+## ピクセルをランダムに設定する
 
-First, we'll think up some random numbers and use the `set_pixel` function to place a random colour on a random location on the Sense HAT display.
+まず、いくつかランダムな数を思いうかべて、`set_pixel`関数を使ってSense HATのディプレイのランダムな位置にランダムな色を配置します。
 
-+ Open the IDLE editor.
++ IDLEエディタを開きます。
 
 [[[rpi-gui-idle-opening]]]
 
-+ Create a new file and save it as `sparkles.py`.
++ 新しいファイルを作成し、`sparkles.py`という名前で保存します。
 
-+ In the new file, start by importing the `SenseHat` module:
++ 新しいファイルで`SenseHat`モジュールをインポートします。
 
     ```python
     from sense_hat import SenseHat
     ```
 
-+ Next, create a connection to your Sense HAT by adding this line of code:
++ 次に、以下のコードを追加して、Sense HATへ接続します。
 
     ```python
     sense = SenseHat()
     ```
 
 
-We will then define x and y, to choose which pixel on the Sense HAT will light.
+xとyを定義して、Sense HATのどのピクセルを点灯するか選びます。
 
-+ Create a variable called `x`, and set it equal to a number of your choice between 0 and 7. This will be the x coordinate of your pixel on the display. [[[generic-python-creating-a-variable]]]
++ `x`という変数を作成し、0から7までの数で好きな数を選んで設定します。 これはディスプレイ上でのピクセルのx座標になります。 [[[generic-python-creating-a-variable]]]
 
-+ Create another variable called `y`, and set it equal to another number between 0 and 7. This will be the y coordinate of your pixel on the display.
-
-
-+ To choose the colour of your pixel, think of three numbers between 0 and `255`, then assign them to variables called `r`, `g`, and `b`. These variables will represent the colour of your pixel as amounts of red (r), green (g), and blue (b).
++ `y`という別の変数を作成し、0から7までの数のうち好きな数を選んで設定します。 これはディスプレイ上でのピクセルのy座標になります。
 
 
-+ Now use the `set_pixel` function to place a pixel with your randomly chosen colour at your randomly chosen location on the display.
++ ピクセルの色を選ぶために、0から`255`までの数のうち3つの数を思いうかべ、それらを`r`、`g`、`b`という変数に割り当てます。 これらの変数はピクセルの色を赤（r），緑（g），青（b）の量で表します。
 
-**Note:** the collapsible directions below use a different filename than yours, and uses Trinket instead of IDLE.
+
++ `set_pixel`関数を使ってピクセルをランダムに選んだ色でランダムに選んだ位置に配置します。
+
+**注意：**以下の折りたたみ部分の指示では、今までと別のファイル名を使っていて、IDLEのかわりにTrinketを使っています。
 
 [[[rpi-sensehat-single-pixel]]]
 
-The `set_pixel` method takes data in the following order: x coordinate, y coordinate, red, green, blue
+`set_pixel`メソッドは次の順でデータを受け取ります：x座標、y座標、赤、緑、青。
 
-To define your `set_pixel` method, plug the names of your variables into the question marks in this line of code, in the right order: x coordinate, y coordinate, red, green, blue.
+`set_pixel`メソッドを定義するために、コード行のクエスチョンマークに正しい順序で変数の名前を入れます：x座標、y座標、赤、緑、青。
 
 ```python
 sense.set_pixel(?, ?, ?, ?, ?)
 ```
 
-View the hint below if you are stuck.
+わからないときは以下のヒントを表示してしましょう。
 
 --- hints ---
 
 --- hint ---
 
-Here is how your finished code should look — you will probably have chosen different numbers:
+完成したコードは次のようになります。おそらく選んだ数字は違っているはずです。
 
-![Random pixel solution](images/random-pixel-solution.png)
+![ランダムなピクセルの解き方](images/random-pixel-solution.png)
 
 --- /hint ---
 
 --- /hints ---
 
 
-+ Run your code by pressing <kbd>F5</kbd>. You should see a single LED light up on the Sense HAT's LED display.
++ <kbd>F5</kbd>キーを押してコードを実行します。 Sense HATのLEDディスプレイ上のLEDが1つ点灯するのがわかります。
 
-+ Now change all of the numbers in your program and run the program again. A second LED should turn on.
++ 次に、プログラム内のすべての数字を変更して、プログラムをもう一度実行します。 2つ目のLEDが点灯します。
