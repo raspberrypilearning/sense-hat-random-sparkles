@@ -1,22 +1,22 @@
-## Add a loop
+## ループを追加する
 
-Rather than running your program over and over by pressing <kbd>F5</kbd>, you can add a loop so that it will keep running by itself.
+<kbd>F5</kbd>キーを押して何回もプログラムを実行するのではなく、ループを追加して実行しつづけるようにできます。
 
-+ You can use the `sleep` module to pause the program between pixels. To do so, first add another `import` to the top of your file.
++ `sleep`（スリープ）モジュールを使って、ピクセルごとにプログラムを一時停止することができます。 そうするには、まずプログラムの先頭にもうひとつ`import`（インポート）を追加します。
 
 ```python
 from time import sleep
 ```
 
-+ Add an infinite loop on the line below the `import` statements.
++ `import`（インポート）文の下の行に無限ループを追加します。
 
 [[[generic-python-while-true]]]
 
-+ Indent all of the lines of code containing your variables and `set_pixel` so that they are within the loop:
++ 変数と`set_pixel`を含むコードの行をすべてインデントし、ループの中に入れます：
 
 --- hints --- --- hint ---
 
-An infinite loop will keep running the code inside it forever. Here is the code to begin an infinite loop. Don't forget that `True` must have a capital `T`.
+無限ループはその中のコードをずっと実行しつづけます。 無限ループを開始するコードは次のとおりです。 `True`（真）は最初の文字を大文字`T`にする必要があることを忘れないでください。
 
 ```python
 while True:
@@ -26,7 +26,7 @@ while True:
 
 --- hint ---
 
-Here is what your code should look like:
+コードは次のようになります：
 
 ```python
 while True:
@@ -40,11 +40,11 @@ while True:
 
 --- /hint --- --- /hints ---
 
-+ Add a line of code at the bottom of your program to pause for 0.1 seconds. Make sure that this line is indented level with the `set_pixel` line to show that it is inside the loop.
++ プログラムの最後に0.1秒間停止するコードを追加します。 この行がループ内にあることを示すために、`set_pixel`行と同じレベルでインデントされているか確認してください。
 
 [[[generic-python-sleep]]]
 
 
-+ Run the code, and you should see random sparkles in action!
++ コードを実行すると、実際にランダムにきらめくのが見られるはずです！
 
-![Finished result](images/finished-result.gif)
+![完成した結果](images/finished-result.gif)
