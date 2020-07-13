@@ -1,15 +1,15 @@
-## Introduction
+## Introdução
 
-Create amazing random sparkles with your Sense HAT. In doing so, you will learn how to choose random positions on the Sense HAT's LED display as well as random colours to light up the LEDs.
+Crie brilhos aleatórios incríveis com o seu Sense HAT. Ao fazer isso, você aprenderá como escolher posições aleatórias no visor de LED do Sense HAT, bem como cores aleatórias para acender os LEDs.
 
-### What you will make
+### O que você vai fazer
 
-Here is a preview of the random sparkle effect you will create — click **Run** to see it in action. <iframe src="https://trinket.io/embed/python/55af2b45f5?outputOnly=true&runOption=run" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Aqui está uma prévia do efeito de brilho aleatório que você irá criar — clique em **Run** para vê-lo em ação. <iframe src="https://trinket.io/embed/python/55af2b45f5?outputOnly=true&runOption=run" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
 
 
-### What you will learn
+### O que você vai aprender
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
+Este recurso abrange elementos das seguintes vertentes do [Currículo de Criação Digital Raspberry Pi](https://www.raspberrypi.org/curriculum/):
 
-- [Use basic programming constructs to create simple programs](https://www.raspberrypi.org/curriculum/programming/creator)
-- [Use basic digital, analogue, and electromechanical components](https://www.raspberrypi.org/curriculum/physical-computing/creator)
+- [Usar estruturas básicas de programação para criar programas simples](https://www.raspberrypi.org/curriculum/programming/creator)
+- [Usar componentes digitais, análogos e eletromecânicos básicos](https://www.raspberrypi.org/curriculum/physical-computing/creator)
