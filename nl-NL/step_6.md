@@ -1,22 +1,22 @@
-## Add a loop
+## Voeg een lus toe
 
-Rather than running your program over and over by pressing <kbd>F5</kbd>, you can add a loop so that it will keep running by itself.
+In plaats van je programma steeds opnieuw uit te voeren door op <kbd>F5</kbd> te drukken, kun je een lus toevoegen zodat deze vanzelf blijft lopen.
 
-+ You can use the `sleep` module to pause the program between pixels. To do so, first add another `import` to the top of your file.
++ Je kunt de `sleep` module gebruiken om het programma tussen pixels te pauzeren. Om dit te doen, voeg eerst nog een `import` toe aan de bovenkant van je bestand.
 
 ```python
 from time import sleep
 ```
 
-+ Add an infinite loop on the line below the `import` statements.
++ Voeg een oneindige lus toe op de regel onder de `import`-commando's.
 
 [[[generic-python-while-true]]]
 
-+ Indent all of the lines of code containing your variables and `set_pixel` so that they are within the loop:
++ Laat alle regels code inspringen die je variabelen en `set_pixel` bevatten zodat ze binnen de lus zitten:
 
 --- hints --- --- hint ---
 
-An infinite loop will keep running the code inside it forever. Here is the code to begin an infinite loop. Don't forget that `True` must have a capital `T`.
+Een oneindige lus zal de code erbinnen voor altijd blijven uitvoeren. Hier is de code om een oneindige lus te beginnen. Vergeet niet dat `True` een hoofdletter `T` moet hebben.
 
 ```python
 while True:
@@ -26,7 +26,7 @@ while True:
 
 --- hint ---
 
-Here is what your code should look like:
+Dit is hoe je code eruit zou moeten zien:
 
 ```python
 while True:
@@ -40,11 +40,11 @@ while True:
 
 --- /hint --- --- /hints ---
 
-+ Add a line of code at the bottom of your program to pause for 0.1 seconds. Make sure that this line is indented level with the `set_pixel` line to show that it is inside the loop.
++ Voeg een regel code toe aan de onderkant van je programma om 0.1 seconde te pauzeren. Zorg ervoor dat deze regel gelijk ingesprongen is met de `set_pixel` regel om te laten zien dat deze zich binnen de lus bevindt.
 
 [[[generic-python-sleep]]]
 
 
-+ Run the code, and you should see random sparkles in action!
++ Voer de code uit en je zou willekeurige fonkelingen in actie moeten zien!
 
-![Finished result](images/finished-result.gif)
+![Eindresultaat](images/finished-result.gif)
