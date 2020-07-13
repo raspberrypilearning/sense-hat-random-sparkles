@@ -1,9 +1,9 @@
-## Challenge: better sparkles
+## Desafio: melhores brilhos
 
-+ Can you make the sparkles change more quickly?
++ Você consegue fazer os brilhos mudarem mais rapidamente?
 
-+ Can you make the sparkles appear in pastel colours? (Hint: you normally pick colour variable values within the range of 0 to 255. Reduce the range and see what happens.)
++ Você consegue fazer com que os brilhos apareçam em tons pastel? (Dica: você normalmente escolhe os valores das variáveis de cor dentro do intervalo de 0 a 255. Reduza o intervalo e veja o que acontece.)
 
-- Try fixing one of the colour values to 0, and see what happens.
+- Tente fixar um dos valores de cor em 0 e veja o que acontece.
 
-- Try making the sparkles disappear again in a style of your choosing.
+- Tente fazer os brilhos desaparecerem novamente no estilo que você escolher.
