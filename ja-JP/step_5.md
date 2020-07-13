@@ -1,25 +1,25 @@
-## Using the `random` module
+## `random`（ランダム）モジュールを使う
 
-So far you picked your own random numbers, but you can let the computer choose them instead by using the `random` module.
+ここまでは自分でランダムな数字を選びましたが、かわりに`random`（ランダム）モジュールを使ってコンピュータに選ばせることができます。
 
-+ Add another `import` line at the **top** of your program:
++ プログラムの**先頭**にもうひとつ`import`（インポート）を追加します。
 
 ```python
 from random import randint
 ```
 
-+ Change your `x` and `y` variables to be equal to a random number between 0 and 7. Now your program will automatically select a random position on the LED matrix.
++ `x`変数と`y`変数を0から7までのランダムな数字に変更します。 これでプログラムがLEDマトリクス上のランダムな位置を自動的に選びます。
 
 [[[generic-python-random]]]
 
-+ Run your program again, and you should see another random pixel being placed on the Sense HAT's display. It will be the same colour you chose previously.
++ もう一度プログラムを実行すると、Sense HATのディスプレイに別のランダムなピクセルが表示されます。 色は前に選んだのと同じになります。
 
-+ Change your `r`, `g`, and `b` variables to each be equal to a random number between 0 and 255. Now your program will automatically select a random colour.
++ 変数`r`、`g`、`b`をそれぞれ0から255までのランダムな数に変更します。 これでプログラムが自動的にランダムな色を選びます。
 
-+ Run the program again, and you should see another pixel appear in a random location, this time with a random colour.
++ もう一度プログラムを実行すると、ランダムな位置に別のピクセルが表示され、今回はランダムな色で表示されます。
 
-+ Run it a few more times, and you should see more of the grid fill up with random pixels.
++ 何回かこれをくり返すと、多くのグリッドがランダムなピクセルでいっぱいになるはずです。
 
-If you have the `sense.clear()` line in your code, you will need to remove it. Otherwise, every time the program is re-run, the display will be cleared and your previous pixel will disappear.
+コードに`sense.clear()`がある場合、それを削除する必要があります。 そうしないと、プログラムを再実行するたびにディプレイの表示がクリアされ、前にあったピクセルが消えます。
 
-![Random pixels](images/random-pixels.png)
+![ランダムなピクセル](images/random-pixels.png)
