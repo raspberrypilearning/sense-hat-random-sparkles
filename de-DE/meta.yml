@@ -1,0 +1,26 @@
+---
+title: Zufälliges Funkeln mit Sense HAT
+hero_image: images/banner.png
+description: Lass deinen Sense HAT mit Stolz erstrahlen
+original_url: https://raspberrypi.org/learning/sense-hat-random-sparkles
+theme: blue
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 2, design-0, programming-2, phys-comp-1, manufacture-0, community-0
+interests: art
+technologies: electronic-components, python, sense-hat
+site_areas: projects
+hardware: electronic-components, sense-hat
+software: python
+version: 4
+last_tested: 2018-01-01
+steps:
+  - title: Einleitung
+  - title: Was du brauchen wirst
+  - title: Stelle die Verbindung zum Sense HAT her
+  - title: Pixel zufällig einstellen
+  - title: Das random-Modul (Zufallsmodul) verwenden
+  - title: Füge eine Schleife hinzu
+  - title: "Herausforderung: Besseres Funkeln"

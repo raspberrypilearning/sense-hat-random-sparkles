@@ -1,0 +1,26 @@
+---
+title: Sense HAT brilhos aleatórios
+hero_image: images/banner.png
+description: Deixe seu Sense HAT brilhar com orgulho
+original_url: https://raspberrypi.org/learning/sense-hat-random-sparkles
+theme: blue
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 2, design-0, programming-2, phys-comp-1, manufacture-0, community-0
+interests: art
+technologies: electronic-components, python, sense-hat
+site_areas: projects
+hardware: electronic-components, sense-hat
+software: python
+version: 4
+last_tested: 2018-01-01
+steps:
+  - title: Introdução
+  - title: O que você vai precisar
+  - title: Conecte ao seu Sense HAT
+  - title: Definindo pixels aleatoriamente
+  - title: Usando o módulo `random`
+  - title: Adicione um laço
+  - title: "Desafio: melhores brilhos"
