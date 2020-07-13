@@ -21,6 +21,6 @@ steps:
   - title: ما ستحتاج إليه
   - title: اتصل بـ Sense HAT الخاص بك
   - title: ضبط وحدات البكسل عشوائيا
-  - title: استخدام وحدة `random`
+  - title: استخدام وحدة random
   - title: إضافة حلقة
   - title: "التحدي: بريق أفضل"
