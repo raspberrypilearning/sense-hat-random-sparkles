@@ -1,25 +1,25 @@
-## Using the `random` module
+## Usando o módulo `random`
 
-So far you picked your own random numbers, but you can let the computer choose them instead by using the `random` module.
+Até agora você escolheu seus próprios números aleatórios, mas você pode deixar que o computador os escolha usando o módulo `random`.
 
-+ Add another `import` line at the **top** of your program:
++ Adicione outra linha `import` no **topo** do seu programa:
 
 ```python
 from random import randint
 ```
 
-+ Change your `x` and `y` variables to be equal to a random number between 0 and 7. Now your program will automatically select a random position on the LED matrix.
++ Altere suas variáveis `x` e `y` para serem iguais a um número aleatório entre 0 e 7. Agora seu programa selecionará automaticamente uma posição aleatória na matriz LED.
 
 [[[generic-python-random]]]
 
-+ Run your program again, and you should see another random pixel being placed on the Sense HAT's display. It will be the same colour you chose previously.
++ Execute seu programa novamente e você deve ver outro pixel aleatório sendo colocado no visor do Sense HAT. Será da mesma cor que você escolheu anteriormente.
 
-+ Change your `r`, `g`, and `b` variables to each be equal to a random number between 0 and 255. Now your program will automatically select a random colour.
++ Altere suas variáveis `r`, `g` e `b` para que cada uma seja igual a um número aleatório entre 0 e 255. Agora seu programa selecionará automaticamente uma cor aleatória.
 
-+ Run the program again, and you should see another pixel appear in a random location, this time with a random colour.
++ Execute o programa novamente e você deve ver outro pixel aparecer em uma posição aleatória, desta vez com uma cor aleatória.
 
-+ Run it a few more times, and you should see more of the grid fill up with random pixels.
++ Execute-o mais algumas vezes e você verá mais da grade preenchida com pixels aleatórios.
 
-If you have the `sense.clear()` line in your code, you will need to remove it. Otherwise, every time the program is re-run, the display will be cleared and your previous pixel will disappear.
+Se você tiver a linha `sense.clear()` no seu código, você precisará removê-la. Caso contrário, sempre que o programa for executado novamente, o visor será apagado e o pixel anterior desaparecerá.
 
-![Random pixels](images/random-pixels.png)
+![Pixels aleatórios](images/random-pixels.png)
