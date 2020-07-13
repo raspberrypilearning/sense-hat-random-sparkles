@@ -1,25 +1,25 @@
-## Using the `random` module
+## De `random` module gebruiken
 
-So far you picked your own random numbers, but you can let the computer choose them instead by using the `random` module.
+Tot nu toe heb je je eigen willekeurige getallen gekozen, maar je kunt de computer ze laten kiezen door de `random` module te gebruiken.
 
-+ Add another `import` line at the **top** of your program:
++ Voeg nog een `import` regel toe aan de **bovenkant** van je programma:
 
 ```python
 from random import randint
 ```
 
-+ Change your `x` and `y` variables to be equal to a random number between 0 and 7. Now your program will automatically select a random position on the LED matrix.
++ Verander je `x` en `y` variabelen zodat die gelijk zijn aan een willekeurig getal tussen 0 en 7. Nu selecteert je programma automatisch een willekeurige positie op de LED-matrix.
 
 [[[generic-python-random]]]
 
-+ Run your program again, and you should see another random pixel being placed on the Sense HAT's display. It will be the same colour you chose previously.
++ Voer je programma opnieuw uit en je zou een andere willekeurige pixel moeten zien worden geplaatst op het Sense HAT scherm. Het zal dezelfde kleur zijn die je eerder hebt gekozen.
 
-+ Change your `r`, `g`, and `b` variables to each be equal to a random number between 0 and 255. Now your program will automatically select a random colour.
++ Wijzig je `r`, `g` en `b` variabelen zodat die ieder gelijk zijn aan een willekeurig getal tussen 0 en 255. Nu selecteert je programma automatisch een willekeurige kleur.
 
-+ Run the program again, and you should see another pixel appear in a random location, this time with a random colour.
++ Voer het programma opnieuw uit en je zou een andere pixel op een willekeurige locatie moeten zien verschijnen, ditmaal met een willekeurige kleur.
 
-+ Run it a few more times, and you should see more of the grid fill up with random pixels.
++ Voer het nog een paar keer uit, en je zou meer van het raster moeten zien vollopen met willekeurige pixels.
 
-If you have the `sense.clear()` line in your code, you will need to remove it. Otherwise, every time the program is re-run, the display will be cleared and your previous pixel will disappear.
+Als je de `sense.clear()`regel in je code hebt, moet je deze verwijderen. Anders wordt elke keer als het programma opnieuw wordt opgestart, het scherm gewist en je vorige pixel zal verdwijnen.
 
-![Random pixels](images/random-pixels.png)
+![Willekeurige pixels](images/random-pixels.png)
