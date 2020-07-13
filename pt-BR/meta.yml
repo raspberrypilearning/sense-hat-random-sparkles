@@ -1,7 +1,7 @@
 ---
-title: Sense HAT random sparkles
+title: Sense HAT brilhos aleatórios
 hero_image: images/banner.png
-description: Let your Sense HAT shine with pride
+description: Deixe seu Sense HAT brilhar com orgulho
 original_url: https://raspberrypi.org/learning/sense-hat-random-sparkles
 theme: blue
 duration: 2
@@ -18,16 +18,16 @@ version: 4
 last_tested: 2018-01-01
 steps:
   - 
-    title: Introduction
+    title: Introdução
   - 
-    title: What you will need
+    title: O que você vai precisar
   - 
-    title: Connect to your Sense HAT
+    title: Conecte ao seu Sense HAT
   - 
-    title: Setting pixels at random
+    title: Definindo pixels aleatoriamente
   - 
-    title: Using the random module
+    title: Usando o módulo aleatório
   - 
-    title: Add a loop
+    title: Adicione um laço
   - 
-    title: "Challenge: better sparkles"
+    title: "Desafio: melhores brilhos"
