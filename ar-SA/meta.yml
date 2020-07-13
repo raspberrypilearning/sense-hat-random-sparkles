@@ -1,0 +1,26 @@
+---
+title: البريق العشوائي Sense HAT
+hero_image: images/banner.png
+description: دع Sense HAT الخاص بك يتألق بفخر
+original_url: https://raspberrypi.org/learning/sense-hat-random-sparkles
+theme: blue
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 2, design-0, programming-2, phys-comp-1, manufacture-0, community-0
+interests: art
+technologies: electronic-components, python, sense-hat
+site_areas: projects
+hardware: electronic-components, sense-hat
+software: python
+version: 4
+last_tested: 2018-01-01
+steps:
+  - title: المقدمة
+  - title: ما ستحتاج إليه
+  - title: اتصل بـ Sense HAT الخاص بك
+  - title: ضبط وحدات البكسل عشوائيا
+  - title: استخدام وحدة random
+  - title: إضافة حلقة
+  - title: "التحدي: بريق أفضل"
