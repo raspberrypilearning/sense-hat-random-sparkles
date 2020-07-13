@@ -1,9 +1,9 @@
-## Challenge: better sparkles
+## チャレンジ：より良いきらめき
 
-+ Can you make the sparkles change more quickly?
++ きらめきをもっと速く変えられますか？
 
-+ Can you make the sparkles appear in pastel colours? (Hint: you normally pick colour variable values within the range of 0 to 255. Reduce the range and see what happens.)
++ きらめきをパステルカラーにできますか？ （ヒント：ふつうは0から255までの範囲内で色変数の値を選びます。 範囲をせばめると何が起きるか確認してください。）
 
-- Try fixing one of the colour values to 0, and see what happens.
+- 色変数のひとつを0に固定すると何が起きるか確認してください。
 
-- Try making the sparkles disappear again in a style of your choosing.
+- もう一度お好みのスタイルできらめきが消えるようにしてみてください。
