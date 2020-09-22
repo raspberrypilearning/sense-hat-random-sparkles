@@ -2,9 +2,7 @@
 
 First, we'll think up some random numbers and use the `set_pixel` function to place a random colour on a random location on the Sense HAT display.
 
-+ Open the IDLE editor.
-
-[[[rpi-gui-idle-opening]]]
++ Open the Thonny editor.
 
 + Create a new file and save it as `sparkles.py`.
 
