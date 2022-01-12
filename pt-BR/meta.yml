@@ -17,10 +17,12 @@ software: python
 version: 4
 last_tested: 2018-01-01
 steps:
-  - title: Introdução
-  - title: O que você vai precisar
-  - title: Conecte ao seu Sense HAT
-  - title: Definindo pixels aleatoriamente
-  - title: Usando o módulo random
-  - title: Adicione um laço
-  - title: "Desafio: melhores brilhos"
+- title: Introdução
+- title: O que você vai precisar
+  completion: engaged
+- title: Conecte ao seu Sense HAT
+- title: Definindo pixels aleatoriamente
+- title: Usando o módulo random
+- title: Adicione um laço
+  completion: internal
+- title: 'Desafio: melhores brilhos'

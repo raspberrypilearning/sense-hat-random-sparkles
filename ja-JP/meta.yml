@@ -17,10 +17,12 @@ software: python
 version: 4
 last_tested: 2018-01-01
 steps:
-  - title: はじめに
-  - title: 必要なもの
-  - title: Sense HATに接続する
-  - title: ピクセルをランダムに設定する
-  - title: random（ランダム）モジュールを使う
-  - title: ループを追加する
-  - title: "チャレンジ：より良いきらめき"
+- title: はじめに
+- title: 必要なもの
+  completion: engaged
+- title: Sense HATに接続する
+- title: ピクセルをランダムに設定する
+- title: random（ランダム）モジュールを使う
+- title: ループを追加する
+  completion: internal
+- title: チャレンジ：より良いきらめき

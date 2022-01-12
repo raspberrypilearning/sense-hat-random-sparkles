@@ -17,10 +17,12 @@ software: python
 version: 4
 last_tested: 2018-01-01
 steps:
-  - title: भूमिका
-  - title: आपको किन चीज़ों की आवश्यकता होगी
-  - title: अपने Sense HAT से कनेक्ट करें
-  - title: यादृच्छिक पर पिक्सेल (pixel) की स्थापना
-  - title: random मॉड्यूल का उपयोग करना
-  - title: एक लूप जोड़ें
-  - title: "चुनौती: बेहतर चमक"
+- title: भूमिका
+- title: आपको किन चीज़ों की आवश्यकता होगी
+  completion: engaged
+- title: अपने Sense HAT से कनेक्ट करें
+- title: यादृच्छिक पर पिक्सेल (pixel) की स्थापना
+- title: random मॉड्यूल का उपयोग करना
+- title: एक लूप जोड़ें
+  completion: internal
+- title: 'चुनौती: बेहतर चमक'
