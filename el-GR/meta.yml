@@ -17,10 +17,14 @@ software: python
 version: 4
 last_tested: 2018-01-01
 steps:
-  - title: Εισαγωγή
-  - title: Τι θα χρειαστείς
-  - title: Σύνδεση με το Sense HAT
-  - title: Ρύθμιση τυχαίων εικονοστοιχείων
-  - title: Χρήση του module random
-  - title: Προσθήκη βρόχου
-  - title: "Πρόκληση: καλύτερες λάμψεις"
+- title: Εισαγωγή
+- title: Τι θα χρειαστείς
+- title: Σύνδεση με το Sense HAT
+- title: Ρύθμιση τυχαίων εικονοστοιχείων
+  completion:
+  - engaged
+- title: Χρήση του module random
+- title: Προσθήκη βρόχου
+  completion:
+  - internal
+- title: 'Πρόκληση: καλύτερες λάμψεις'

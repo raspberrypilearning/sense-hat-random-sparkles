@@ -1,3 +1,4 @@
+---
 title: Sense HAT random sparkles
 hero_image: images/banner.png
 description: Let your Sense HAT shine with pride
@@ -15,11 +16,15 @@ hardware: electronic-components, sense-hat
 software: python
 version: 4
 last_tested: 2018-01-01
-steps: 
+steps:
 - title: Introduction
 - title: What you will need
 - title: Connect to your Sense HAT
 - title: Setting pixels at random
+  completion:
+  - engaged
 - title: Using the random module
 - title: Add a loop
-- title: "Challenge: better sparkles"
+  completion:
+  - internal
+- title: 'Challenge: better sparkles'

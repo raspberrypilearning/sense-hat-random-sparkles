@@ -17,10 +17,14 @@ software: python
 version: 4
 last_tested: 2018-01-01
 steps:
-  - title: المقدمة
-  - title: ما ستحتاج إليه
-  - title: اتصل بـ Sense HAT الخاص بك
-  - title: ضبط وحدات البكسل عشوائيا
-  - title: استخدام وحدة random
-  - title: إضافة حلقة
-  - title: "التحدي: بريق أفضل"
+- title: المقدمة
+- title: ما ستحتاج إليه
+- title: اتصل بـ Sense HAT الخاص بك
+- title: ضبط وحدات البكسل عشوائيا
+  completion:
+  - engaged
+- title: استخدام وحدة random
+- title: إضافة حلقة
+  completion:
+  - internal
+- title: 'التحدي: بريق أفضل'
