@@ -19,10 +19,12 @@ last_tested: 2018-01-01
 steps:
 - title: Introdução
 - title: O que você vai precisar
-  completion: engaged
 - title: Conecte ao seu Sense HAT
 - title: Definindo pixels aleatoriamente
+  completion:
+  - engaged
 - title: Usando o módulo random
 - title: Adicione um laço
-  completion: internal
+  completion:
+  - internal
 - title: 'Desafio: melhores brilhos'

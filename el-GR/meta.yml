@@ -19,10 +19,12 @@ last_tested: 2018-01-01
 steps:
 - title: Εισαγωγή
 - title: Τι θα χρειαστείς
-  completion: engaged
 - title: Σύνδεση με το Sense HAT
 - title: Ρύθμιση τυχαίων εικονοστοιχείων
+  completion:
+  - engaged
 - title: Χρήση του module random
 - title: Προσθήκη βρόχου
-  completion: internal
+  completion:
+  - internal
 - title: 'Πρόκληση: καλύτερες λάμψεις'

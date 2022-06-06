@@ -19,10 +19,12 @@ last_tested: 2018-01-01
 steps:
 - title: Inleiding
 - title: Wat heb je nodig
-  completion: engaged
 - title: Maak verbinding met je Sense HAT
 - title: Pixels willekeurig instellen
+  completion:
+  - engaged
 - title: De random module gebruiken
 - title: Voeg een lus toe
-  completion: internal
+  completion:
+  - internal
 - title: 'Uitdaging: betere fonkelingen'

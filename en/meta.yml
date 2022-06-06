@@ -19,10 +19,12 @@ last_tested: 2018-01-01
 steps:
 - title: Introduction
 - title: What you will need
-  completion: engaged
 - title: Connect to your Sense HAT
 - title: Setting pixels at random
+  completion:
+  - engaged
 - title: Using the random module
 - title: Add a loop
-  completion: internal
+  completion:
+  - internal
 - title: 'Challenge: better sparkles'

@@ -19,10 +19,12 @@ last_tested: 2018-01-01
 steps:
 - title: Introduction
 - title: Ce dont tu auras besoin
-  completion: engaged
 - title: Connecte-toi à ton Sense HAT
 - title: Réglage des pixels au hasard
+  completion:
+  - engaged
 - title: Utiliser le module random
 - title: Ajouter une boucle
-  completion: internal
+  completion:
+  - internal
 - title: 'Défi : meilleurs scintillements'

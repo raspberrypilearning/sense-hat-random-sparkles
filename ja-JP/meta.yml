@@ -19,10 +19,12 @@ last_tested: 2018-01-01
 steps:
 - title: はじめに
 - title: 必要なもの
-  completion: engaged
 - title: Sense HATに接続する
 - title: ピクセルをランダムに設定する
+  completion:
+  - engaged
 - title: random（ランダム）モジュールを使う
 - title: ループを追加する
-  completion: internal
+  completion:
+  - internal
 - title: チャレンジ：より良いきらめき

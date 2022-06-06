@@ -19,10 +19,12 @@ last_tested: 2018-01-01
 steps:
 - title: المقدمة
 - title: ما ستحتاج إليه
-  completion: engaged
 - title: اتصل بـ Sense HAT الخاص بك
 - title: ضبط وحدات البكسل عشوائيا
+  completion:
+  - engaged
 - title: استخدام وحدة random
 - title: إضافة حلقة
-  completion: internal
+  completion:
+  - internal
 - title: 'التحدي: بريق أفضل'
