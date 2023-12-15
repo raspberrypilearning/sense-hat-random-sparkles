@@ -25,9 +25,13 @@ steps:
     title: Connect to your Sense HAT
   - 
     title: Setting pixels at random
+    completion:
+      - engaged
   - 
     title: Using the random module
   - 
     title: Add a loop
+    completion:
+      - internal
   - 
-    title: "Challenge: better sparkles"
+    title: 'Challenge: better sparkles'
