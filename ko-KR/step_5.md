@@ -1,25 +1,25 @@
-## Using the `random` module
+## `random` 모듈 사용하기
 
-So far you picked your own random numbers, but you can let the computer choose them instead by using the `random` module.
+지금까지 자신의 무작위의 수(난수)를 직접 선택했지만 `random` 모듈을 사용하여 컴퓨터가 대신 선택하도록 할 수 있습니다.
 
-+ Add another `import` line at the **top** of your program:
++ 코드 **상단**에 다음 `import` 행을 추가하세요:
 
 ```python
 from random import randint
 ```
 
-+ Change your `x` and `y` variables to be equal to a random number between 0 and 7. Now your program will automatically select a random position on the LED matrix.
++ `x` 및 `y` 변수를 0과 7 사이의 난수로 변경하십시오. 이제 프로그램이 LED 매트릭스에서 임의의 위치를 자동으로 선택합니다.
 
 [[[generic-python-random]]]
 
-+ Run your program again, and you should see another random pixel being placed on the Sense HAT's display. It will be the same colour you chose previously.
++ 프로그램을 다시 실행하면 Sense HAT의 디스플레이에 다른 임의의 픽셀이 배치되는 것을 볼 수 있습니다. 이전에 선택한 색상과 동일할 것입니다.
 
-+ Change your `r`, `g`, and `b` variables to each be equal to a random number between 0 and 255. Now your program will automatically select a random colour.
++ `r`, `g`, `b` 변수를 0과 255 사이의 난수로 설정하세요. 이제 프로그램이 자동으로 랜덤한 색상을 선택합니다.
 
-+ Run the program again, and you should see another pixel appear in a random location, this time with a random colour.
++ 다시 실행하면 무작위 색으로 무작위한 위치에 불이 들어오는 것을 볼 수 있습니다.
 
-+ Run it a few more times, and you should see more of the grid fill up with random pixels.
++ 몇 번 더 실행하면 더 많은 격자가 임의의 픽셀로 채워지는 것을 볼 수 있습니다.
 
-If you have the `sense.clear()` line in your code, you will need to remove it. Otherwise, every time the program is re-run, the display will be cleared and your previous pixel will disappear.
+코드에 `sense.clear()` 줄이 있으면 지우시기 바랍니다. 그렇지 않으면 프로그램이 다시 실행될 때마다 이전 픽셀이 사라집니다.
 
-![Random pixels](images/random-pixels.png)
+![임의의 픽셀](images/random-pixels.png)
