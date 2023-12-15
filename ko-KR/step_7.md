@@ -1,9 +1,9 @@
-## Challenge: better sparkles
+## 도전 과제: 더 반짝반짝
 
-+ Can you make the sparkles change more quickly?
++ 더 빨리 반짝이게 바꿀 수 있나요?
 
-+ Can you make the sparkles appear in pastel colours? (Hint: you normally pick colour variable values within the range of 0 to 255. Reduce the range and see what happens.)
++ 파스텔 색으로 반짝이게 만들 수 있나요? (힌트 : 일반적으로는 0에서 255 사이의 색상 값을 선택합니다. 범위를 줄이고 어떤 일이 발생하는지 확인하세요.)
 
-- Try fixing one of the colour values to 0, and see what happens.
+- 색상 값 중 하나를 0으로 수정하고 어떤 일이 발생하는지 확인하세요.
 
-- Try making the sparkles disappear again in a style of your choosing.
+- 원하는 방법으로 불을 다시 사라지게 만드세요
