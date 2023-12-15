@@ -1,25 +1,25 @@
-## Using the `random` module
+## Використання модуля `random`
 
-So far you picked your own random numbers, but you can let the computer choose them instead by using the `random` module.
+Поки що ти підбирав(-ла) власні випадкові числа, але ти можеш дозволити комп'ютеру вибирати їх замість тебе, використовуючи модуль `random`.
 
-+ Add another `import` line at the **top** of your program:
++ Додай ще один рядок `import` у **верхній** частині програми:
 
 ```python
 from random import randint
 ```
 
-+ Change your `x` and `y` variables to be equal to a random number between 0 and 7. Now your program will automatically select a random position on the LED matrix.
++ Модифікуй змінні `x` та `y` так, щоб вони були випадковими числами від 0 до 7. Тепер твоя програма буде автоматично вибирати випадкову позицію на світлодіодній матриці.
 
 [[[generic-python-random]]]
 
-+ Run your program again, and you should see another random pixel being placed on the Sense HAT's display. It will be the same colour you chose previously.
++ Запусти програму ще раз, і на Sense HAT дисплеї повинен з’явитися ще один випадковий піксель. Він буде такого ж кольору, який ти вибрав(-ла) перед цим.
 
-+ Change your `r`, `g`, and `b` variables to each be equal to a random number between 0 and 255. Now your program will automatically select a random colour.
++ Модифікуй змінні `r`, `g` та `b` так, щоб вони були випадковими числами від 0 до 255. Тепер твоя програма буде автоматично вибирати випадковий колір.
 
-+ Run the program again, and you should see another pixel appear in a random location, this time with a random colour.
++ Запусти програму ще раз, і ти маєш побачити ще один піксель у випадковому місці, на цей раз випадкового кольору.
 
-+ Run it a few more times, and you should see more of the grid fill up with random pixels.
++ Запусти програму ще кілька разів, і ти маєш побачити, що все більша частина сітки матриці заповнюється випадковими пікселями.
 
-If you have the `sense.clear()` line in your code, you will need to remove it. Otherwise, every time the program is re-run, the display will be cleared and your previous pixel will disappear.
+Якщо у тебе є рядок `sense.clear()` у коді, його потрібно видалити. В іншому випадку, кожного разу при повторному запуску програми дисплей буде очищений, а твій попередній піксель зникне.
 
-![Random pixels](images/random-pixels.png)
+![Випадкові пікселі](images/random-pixels.png)
