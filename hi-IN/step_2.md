@@ -1,27 +1,28 @@
-## आपको किन चीज़ों की आवश्यकता होगी
+## What you will need
 
-### हार्डवेयर
+### Hardware
 
-* Raspberry Pi
-* एक Sense HAT, या Pi का Sense HAT एमुलेटर
+* A Raspberry Pi
+* A Sense HAT, or the Pi's Sense HAT emulator
 
-**या**
+**or**
 
-यदि आपके पास Raspberry Pi नहीं है, आप परियोजना बना सकते हैं उपयोग करते हुए:
+If you do not have a Raspberry Pi, you can create the project using:
 
-* ऑनलाइन Sense HAT एमुलेटर [Trinket पर​](https://trinket.io/sense-hat)
+* Online Sense HAT emulator [on Trinket](https://trinket.io/python/312a2b66ba)
 
-### सॉफ्टवेयर
-यदि आप Raspberry Pi का उपयोग कर रहे हैं, तो आपको [Raspbian के नवीनतम संस्करण](https://www.raspberrypi.org/downloads/) की आवश्यकता होगी, जिसमें पहले से ही निम्नलिखित सॉफ्टवेयर पैकेज शामिल हैं:
+### Software
+If you're using a Raspberry Pi, you will need the [latest version of Raspberry Pi OS](https://www.raspberrypi.org/downloads/), which already includes the following software packages:
 
-- Python 3
-- Python 3 के लिए Sense HAT मॉड्यूल
+- Thonny
 
-यदि किसी भी कारण से आपको मैन्युअल रूप से पैकेज को इंस्टॉल करने की आवश्यकता है, तो इन निर्देशों का पालन करें:
+You can find the **Sense HAT Emulator** in the **Recommended Softare** application.
+
+If for any reason you need to install a package manually, follow these instructions:
 
 [[[rpi-install-software]]]
 
-Sense HAT पैकेज को इंस्टॉल करने के लिए इस कमांड को टर्मिनल विंडो में टाइप करें:
+Type this command into a terminal window to install the Sense HAT package:
 
 ```bash
 sudo apt-get install sense-hat
