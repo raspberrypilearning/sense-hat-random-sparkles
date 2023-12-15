@@ -1,27 +1,28 @@
-## 必要なもの
+## What you will need
 
-### ハードウェア
+### Hardware
 
-* Raspberry Pi 1台
-* Sense HAT 1個、もしくはPiのSense HATエミュレータ
+* A Raspberry Pi
+* A Sense HAT, or the Pi's Sense HAT emulator
 
-**または**
+**or**
 
-Raspberry Piを持っていない場合、以下を使ってプロジェクトを作成できます：
+If you do not have a Raspberry Pi, you can create the project using:
 
-* オンラインの[Trinket](https://trinket.io/sense-hat)にあるSense HATエミュレータ
+* Online Sense HAT emulator [on Trinket](https://trinket.io/python/312a2b66ba)
 
-### ソフトウェア
-Rasbperry Piを使っている場合は、以下のソフトウェアパッケージがすでに含まれている[最新版のRaspberry Pi OS](https://www.raspberrypi.org/downloads/)が必要です。
+### Software
+If you're using a Raspberry Pi, you will need the [latest version of Raspberry Pi OS](https://www.raspberrypi.org/downloads/), which already includes the following software packages:
 
-- Python 3
-- Python3用Sense HATモジュール
+- Thonny
 
-何らかの理由でパッケージを手動でインストールする必要がある場合は、以下の手順に従ってください：
+You can find the **Sense HAT Emulator** in the **Recommended Softare** application.
+
+If for any reason you need to install a package manually, follow these instructions:
 
 [[[rpi-install-software]]]
 
-ターミナルウィンドウに次のコマンドを入力して、Sense HATパッケージをインストールします。
+Type this command into a terminal window to install the Sense HAT package:
 
 ```bash
 sudo apt-get install sense-hat
