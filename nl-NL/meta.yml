@@ -1,7 +1,7 @@
 ---
-title: Sense HAT lukraak knipperen
+title: Sense HAT random sparkles
 hero_image: images/banner.png
-description: Laat je Sense HAT stralen
+description: Let your Sense HAT shine with pride
 original_url: https://raspberrypi.org/learning/sense-hat-random-sparkles
 theme: blue
 duration: 2
@@ -20,14 +20,18 @@ steps:
   - 
     title: Inleiding
   - 
-    title: Wat heb je nodig
+    title: What you will need
   - 
-    title: Maak verbinding met je Sense HAT
+    title: Connect to your Sense HAT
   - 
-    title: Pixels willekeurig instellen
+    title: Setting pixels at random
+    completion:
+      - engaged
   - 
-    title: De random module gebruiken
+    title: Using the random module
   - 
-    title: Voeg een lus toe
+    title: Add a loop
+    completion:
+      - internal
   - 
-    title: "Uitdaging: betere fonkelingen"
+    title: 'Challenge: better sparkles'
