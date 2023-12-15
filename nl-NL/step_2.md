@@ -1,27 +1,28 @@
-## Wat heb je nodig
+## What you will need
 
 ### Hardware
 
-* Een Raspberry Pi
-* Een Sense HAT, of de Sense HAT-emulator van de Pi
+* A Raspberry Pi
+* A Sense HAT, or the Pi's Sense HAT emulator
 
-**of**
+**or**
 
-Als je geen Raspberry Pi hebt, kun je het project maken met:
+If you do not have a Raspberry Pi, you can create the project using:
 
-* Online Sense HAT-emulator [op Trinket](https://trinket.io/sense-hat)
+* Online Sense HAT emulator [on Trinket](https://trinket.io/python/312a2b66ba)
 
 ### Software
-Als je een Raspberry Pi gebruikt, heb je de [nieuwste versie van Raspbian](https://www.raspberrypi.org/downloads/) nodig, die al de volgende softwarepakketten bevat:
+If you're using a Raspberry Pi, you will need the [latest version of Raspberry Pi OS](https://www.raspberrypi.org/downloads/), which already includes the following software packages:
 
-- Python 3
-- Sense HAT-module voor Python 3
+- Thonny
 
-Als je om welke reden dan ook een pakket handmatig moet installeren, volg je deze instructies:
+You can find the **Sense HAT Emulator** in the **Recommended Softare** application.
+
+If for any reason you need to install a package manually, follow these instructions:
 
 [[[rpi-install-software]]]
 
-Typ deze opdracht in een terminalvenster om het Sense HAT-pakket te installeren:
+Type this command into a terminal window to install the Sense HAT package:
 
 ```bash
 sudo apt-get install sense-hat
