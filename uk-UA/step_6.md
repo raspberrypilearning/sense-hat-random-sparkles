@@ -1,22 +1,22 @@
-## Add a loop
+## Додай цикл
 
-Rather than running your program over and over by pressing <kbd>F5</kbd>, you can add a loop so that it will keep running by itself.
+Замість того, щоб запускати програму знову і знову, натискаючи <kbd>F5</kbd>, ти можеш додати цикл, щоб програма продовжувала працювати сама по собі.
 
-+ You can use the `sleep` module to pause the program between pixels. To do so, first add another `import` to the top of your file.
++ Ти можеш використовувати модуль `sleep`, щоб призупиняти програму між пікселями. Для цього спочатку додай ще один `import` до початку твого файлу.
 
 ```python
 from time import sleep
 ```
 
-+ Add an infinite loop on the line below the `import` statements.
++ Додай нескінченний цикл під цим `import`.
 
 [[[generic-python-while-true]]]
 
-+ Indent all of the lines of code containing your variables and `set_pixel` so that they are within the loop:
++ Вирівняй всі рядки коду, які містять твої змінні та `set_pixel`, так щоб вони знаходились в циклі:
 
 --- hints --- --- hint ---
 
-An infinite loop will keep running the code inside it forever. Here is the code to begin an infinite loop. Don't forget that `True` must have a capital `T`.
+Нескінченний цикл буде постійно запускати код розміщений всередині себе. Ось код, щоб запустити нескінченний цикл. Не забудь, що `True` треба писати з великої літери `T`.
 
 ```python
 while True:
@@ -26,7 +26,7 @@ while True:
 
 --- hint ---
 
-Here is what your code should look like:
+Ось як має виглядати твій код:
 
 ```python
 while True:
@@ -40,11 +40,11 @@ while True:
 
 --- /hint --- --- /hints ---
 
-+ Add a line of code at the bottom of your program to pause for 0.1 seconds. Make sure that this line is indented level with the `set_pixel` line to show that it is inside the loop.
++ Додай рядок коду вкінці програми, щоб зробити паузу на 0.1 секунди. Переконайся, що цей рядок має такий відступ, як і `set_pixel`, щоб показати, що він знаходиться всередині циклу.
 
 [[[generic-python-sleep]]]
 
 
-+ Run the code, and you should see random sparkles in action!
++ Запусти код, і ти маєш побачити випадкові блискітки в дії!
 
-![Finished result](images/finished-result.gif)
+![Готовий результат](images/finished-result.gif)
