@@ -1,65 +1,63 @@
-## ضبط وحدات البكسل عشوائيا
+## Setting pixels at random
 
-أولاً، سوف نفكر في بعض الأرقام العشوائية ونستخدم الدالة `set_pixel` لوضع لون عشوائي على موقع عشوائي على شاشة Sense HAT.
+First, we'll think up some random numbers and use the `set_pixel` function to place a random colour on a random location on the Sense HAT display.
 
-+ افتح محرر IDLE.
++ Open the Thonny editor.
 
-[[[rpi-gui-idle-opening]]]
++ Create a new file and save it as `sparkles.py`.
 
-+ قم بإنشاء ملف جديد واحفظه باسم `sparkles.py`.
-
-+ في الملف الجديد، ابدأ باستيراد الوحدة النمطية `SenseHat`:
++ In the new file, start by importing the `SenseHat` module:
 
     ```python
     from sense_hat import SenseHat
     ```
 
-+ بعد ذلك، قم بإنشاء اتصال بـ Sense HAT الخاص بك عن طريق إضافة هذا السطر من التعليمة البرمجية:
++ Next, create a connection to your Sense HAT by adding this line of code:
 
     ```python
-    () sense = SenseHat
+    sense = SenseHat()
     ```
 
 
-سنقوم بعد ذلك بتحديد x و y لاختيار أي بكسل سيضيء على لوحة Sense HAT.
+We will then define x and y, to choose which pixel on the Sense HAT will light.
 
-+ قم بإنشاء متغير يسمى `x`، وقم باعطائه عدداً من اختيارك بين 0 و 7. سيكون هذا إحداثي x الخاص بك على الشاشة. [[[generic-python-creating-a-variable]]]
++ Create a variable called `x`, and set it equal to a number of your choice between 0 and 7. This will be the x coordinate of your pixel on the display. [[[generic-python-creating-a-variable]]]
 
-+ قم بإنشاء متغير يسمى `y`، وقم باعطائه عدداً من اختيارك بين 0 و 7. سيكون هذا إحداثي y الخاص بك على الشاشة.
-
-
-+ لاختيار لون البكسل الخاص بك، فكّر في ثلاثة أرقام بين 0 و`255`، ثم قم بتعيينهم إلى متغيرات تسمى `r`، `g`، و`b`. ستمثل هذه المتغيرات لون البكسل الخاص بك كمقادير الأحمر (r) والأخضر (g) والأزرق (b).
++ Create another variable called `y`, and set it equal to another number between 0 and 7. This will be the y coordinate of your pixel on the display.
 
 
-+ الآن استخدم الدالة `set_pixel` لوضع بكسل مع اللون الذي تم اختياره عشوائيا في موقعك الذي تم اختياره عشوائيا على الشاشة.
++ To choose the colour of your pixel, think of three numbers between 0 and `255`, then assign them to variables called `r`, `g`, and `b`. These variables will represent the colour of your pixel as amounts of red (r), green (g), and blue (b).
 
-**ملاحظة:** الاتجاهات القابلة للطي أدناه تستخدم اسم ملف مختلف عن اسم ملفك ، وتستخدم Trinket بدلاً من IDLE.
+
++ Now use the `set_pixel` function to place a pixel with your randomly chosen colour at your randomly chosen location on the display.
+
+**Note:** the collapsible directions below use a different filename than yours, and uses Trinket instead of IDLE.
 
 [[[rpi-sensehat-single-pixel]]]
 
-طريقة `set_pixel` تأخذ البيانات بالترتيب التالي: إحداثي x، إحداثي y، أحمر، أخضر، أزرق
+The `set_pixel` method takes data in the following order: x coordinate, y coordinate, red, green, blue
 
-لتعريف `set_pixel` الخاصة بك، قم بتوصيل أسماء المتغيرات الخاصة بك إلى علامات الاستفهام في هذا السطر من التعليمات البرمجية، بالترتيب الصحيح: إحداثي x، إحداثي y، أحمر، أخضر، أزرق.
+To define your `set_pixel` method, plug the names of your variables into the question marks in this line of code, in the right order: x coordinate, y coordinate, red, green, blue.
 
 ```python
-sense.set_pixel(?, ?, ?, ?, ?, ?)
+sense.set_pixel(?, ?, ?, ?, ?)
 ```
 
-عرض التلميح أدناه إذا كنت عالقا.
+View the hint below if you are stuck.
 
 --- hints ---
 
 --- hint ---
 
-إليك الطريقة التي يجب أن تبدو بها التعليمات البرمجية النهائية - ربما تكون قد اخترت أرقام مختلفة:
+Here is how your finished code should look — you will probably have chosen different numbers:
 
-![حل بكسل عشوائي](images/random-pixel-solution.png)
+![Random pixel solution](images/random-pixel-solution.png)
 
 --- /hint ---
 
 --- /hints ---
 
 
-+ قم بتشغيل التعليمات البرمجية بالضغط على <kbd>F5</kbd>. من المفترض أن ترى ضوء LED واحدًا على شاشة LED الخاصة بـ Sense HAT.
++ Run your code by pressing <kbd>F5</kbd>. You should see a single LED light up on the Sense HAT's LED display.
 
-+ الآن قم بتغيير جميع الأرقام في برنامجك وقم بتشغيل البرنامج مرة أخرى. يجب تشغيل مصباح LED ثانٍ.
++ Now change all of the numbers in your program and run the program again. A second LED should turn on.
