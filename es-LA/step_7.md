@@ -1,9 +1,9 @@
-## Challenge: better sparkles
+## Desafío: mejores destellos
 
-+ Can you make the sparkles change more quickly?
++ ¿Puedes hacer que las chispas cambien más rápidamente?
 
-+ Can you make the sparkles appear in pastel colours? (Hint: you normally pick colour variable values within the range of 0 to 255. Reduce the range and see what happens.)
++ ¿Puedes hacer que las chispas aparezcan en colores pastel? (Sugerencia: normalmente escoges los valores de las variables de color dentro del rango de 0 a 255. Reduce el rango y observa qué pasa.)
 
-- Try fixing one of the colour values to 0, and see what happens.
+- Intenta fijar uno de los valores de color a 0, y observa lo que sucede.
 
-- Try making the sparkles disappear again in a style of your choosing.
+- Trata de hacer que las chispas desaparezcan de nuevo en un estilo de tu elección.
