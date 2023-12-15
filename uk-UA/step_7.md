@@ -1,9 +1,9 @@
-## Challenge: better sparkles
+## Завдання: Кращі блискітки
 
-+ Can you make the sparkles change more quickly?
++ Чи можеш ти змусити блискітки змінюватися ще швидше?
 
-+ Can you make the sparkles appear in pastel colours? (Hint: you normally pick colour variable values within the range of 0 to 255. Reduce the range and see what happens.)
++ Зможеш зробити блискітки у пастельних кольорах? (Підказка: зазвичай ти обираєш значення змінних кольорів у межах від 0 до 255. Зменши цей діапазон і подивись, що станеться).
 
-- Try fixing one of the colour values to 0, and see what happens.
+- Спробуй зафіксувати одне із значень кольору у 0 і подивись, що станеться.
 
-- Try making the sparkles disappear again in a style of your choosing.
+- Спробуй змусити блискітки знову зникнути в обраному тобою стилі.
