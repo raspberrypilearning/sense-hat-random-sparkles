@@ -1,7 +1,7 @@
 ---
-title: ランダムにきらめくSense HAT
+title: Sense HAT random sparkles
 hero_image: images/banner.png
-description: Sense HATを誇（ほこ）り高くかがやかせよう
+description: Let your Sense HAT shine with pride
 original_url: https://raspberrypi.org/learning/sense-hat-random-sparkles
 theme: blue
 duration: 2
@@ -20,14 +20,18 @@ steps:
   - 
     title: はじめに
   - 
-    title: 必要なもの
+    title: What you will need
   - 
-    title: Sense HATに接続する
+    title: Connect to your Sense HAT
   - 
-    title: ピクセルをランダムに設定する
+    title: Setting pixels at random
+    completion:
+      - engaged
   - 
-    title: random（ランダム）モジュールを使う
+    title: Using the random module
   - 
-    title: ループを追加する
+    title: Add a loop
+    completion:
+      - internal
   - 
-    title: "チャレンジ：より良いきらめき"
+    title: 'Challenge: better sparkles'
