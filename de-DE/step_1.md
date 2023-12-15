@@ -4,7 +4,7 @@ Erstelle ein erstaunliches zufälliges Funkeln mit deinem Sense HAT. Dabei lerns
 
 ### Was du machen wirst
 
-Hier ist eine Vorschau des zufälligen Funkeleffekts, den du erzeugen wirst — klicke auf **Ausführen** um ihn in Aktion zu sehen. <iframe src="https://trinket.io/embed/python/55af2b45f5?outputOnly=true&runOption=run" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Hier ist eine Vorschau des zufälligen Funkeleffekts, den du erzeugen wirst — klicke auf **Ausführen** um ihn in Aktion zu sehen. <iframe src="https://trinket.io/embed/python/55af2b45f5?outputOnly=true&runOption=run" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
 ### Was du lernen wirst
