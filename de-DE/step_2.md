@@ -9,13 +9,14 @@
 
 Wenn du keinen Raspberry Pi hast, kannst du das Projekt mit folgenden Mitteln erstellen:
 
-* Online-Sense HAT-Emulator [auf Trinket](https://trinket.io/sense-hat)
+* Online-Sense HAT-Emulator [auf Trinket](https://trinket.io/python/312a2b66ba)
 
 ### Software
-Wenn du einen Raspberry Pi verwendest, benötigst du die [neueste Version von Raspbian](https://www.raspberrypi.org/downloads/), die bereits folgende Softwarepakete enthält:
+Wenn du einen Raspberry Pi verwendest, benötigst du die [neueste Version von Raspberry Pi OS](https://www.raspberrypi.org/downloads/), die bereits folgende Softwarepakete enthält:
 
-- Python 3
-- Sense HAT-Modul für Python 3
+- Thonny
+
+Sie finden den **Sense HAT Emulator** in der **empfohlenen Softare** Anwendung.
 
 Wenn du aus irgendeinem Grund ein Paket manuell installieren musst, folge diesen Anweisungen:
 
