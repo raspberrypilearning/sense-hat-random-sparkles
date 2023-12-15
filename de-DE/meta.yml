@@ -25,9 +25,13 @@ steps:
     title: Stelle die Verbindung zum Sense HAT her
   - 
     title: Pixel zufällig einstellen
+    completion:
+      - engaged
   - 
     title: Das random-Modul (Zufallsmodul) verwenden
   - 
     title: Füge eine Schleife hinzu
+    completion:
+      - internal
   - 
-    title: "Herausforderung: Besseres Funkeln"
+    title: 'Herausforderung: Besseres Funkeln'
