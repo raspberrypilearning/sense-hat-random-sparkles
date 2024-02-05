@@ -1,63 +1,63 @@
-## Setting pixels at random
+## Встановлення пікселів випадковим чином
 
-First, we'll think up some random numbers and use the `set_pixel` function to place a random colour on a random location on the Sense HAT display.
+Спочатку придумай кілька випадкових чисел і використай функцію `set_pixel`, щоб розмістити випадковий колір у випадковому місці на дисплеї Sense HAT.
 
-+ Open the Thonny editor.
++ Відкрий редактор Thonny.
 
-+ Create a new file and save it as `sparkles.py`.
++ Створи новий файл і збережи його як `sparkles.py`.
 
-+ In the new file, start by importing the `SenseHat` module:
++ У новому файлі почни з імпорту модуля `SenseHat`:
 
     ```python
     from sense_hat import SenseHat
     ```
 
-+ Next, create a connection to your Sense HAT by adding this line of code:
++ Далі під'єднай Sense HAT, додавши цей рядок коду:
 
     ```python
     sense = SenseHat()
     ```
 
 
-We will then define x and y, to choose which pixel on the Sense HAT will light.
+Потім визнач x і y, щоб вибрати, який піксель на Sense Hat буде світитися.
 
-+ Create a variable called `x`, and set it equal to a number of your choice between 0 and 7. This will be the x coordinate of your pixel on the display. [[[generic-python-creating-a-variable]]]
++ Створи змінну з назвою `x` та запиши в неї число від 0 до 7 на твій вибір. Це буде координата х твого пікселя на дисплеї. [[[generic-python-creating-a-variable]]]
 
-+ Create another variable called `y`, and set it equal to another number between 0 and 7. This will be the y coordinate of your pixel on the display.
-
-
-+ To choose the colour of your pixel, think of three numbers between 0 and `255`, then assign them to variables called `r`, `g`, and `b`. These variables will represent the colour of your pixel as amounts of red (r), green (g), and blue (b).
++ Створи змінну з назвою `y`, та запиши в неї інше число від 0 до 7 на твій вибір. Це буде координата y твого пікселя на дисплеї.
 
 
-+ Now use the `set_pixel` function to place a pixel with your randomly chosen colour at your randomly chosen location on the display.
++ Щоб вибрати колір пікселя, придумай три числа від 0 до `255`, а потім запиши їх у змінні з назвою `r`, `g` та `b`. Ці змінні будуть представляти колір твого пікселя у вигляді кількості червоного (r), зеленого (g) і синього (b).
 
-**Note:** the collapsible directions below use a different filename than yours, and uses Trinket instead of IDLE.
+
++ Тепер скористайся функцією `set_pixel` для розміщення пікселя з випадково обраним кольором у випадково обраному місці на дисплеї.
+
+**Примітка:** наведені нижче вказівки у згорнутому вигляді використовують інше ім'я файлу та використовують Trinket замість IDLE.
 
 [[[rpi-sensehat-single-pixel]]]
 
-The `set_pixel` method takes data in the following order: x coordinate, y coordinate, red, green, blue
+Функція `set_pixel` приймає дані в наступному порядку: координата x, координата y, червоний (r), зелений (g), синій (b)
 
-To define your `set_pixel` method, plug the names of your variables into the question marks in this line of code, in the right order: x coordinate, y coordinate, red, green, blue.
+Щоб визначити функцію `set_pixel`, введи імена змінних замість знаків запитання у цьому рядку коду в правильному порядку: координата x, координата y, r, g, b.
 
 ```python
 sense.set_pixel(?, ?, ?, ?, ?)
 ```
 
-View the hint below if you are stuck.
+Подивись підказку нижче, якщо щось не виходить.
 
 --- hints ---
 
 --- hint ---
 
-Here is how your finished code should look — you will probably have chosen different numbers:
+Ось як повинен виглядати готовий код — скоріше за все у тебе будуть інші цифри:
 
-![Random pixel solution](images/random-pixel-solution.png)
+![Рішення з випадковим пікселем](images/random-pixel-solution.png)
 
 --- /hint ---
 
 --- /hints ---
 
 
-+ Run your code by pressing <kbd>F5</kbd>. You should see a single LED light up on the Sense HAT's LED display.
++ Запусти свій код, натиснувши <kbd>F5</kbd>. Ти маєш побачити, що на світлодіодному дисплеї Sense HAT засвітився один світлодіод.
 
-+ Now change all of the numbers in your program and run the program again. A second LED should turn on.
++ Тепер зміни всі цифри у програмі і запусти її знову. Другий світлодіод має засвітитися.
