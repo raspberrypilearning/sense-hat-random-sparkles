@@ -1,12 +1,12 @@
-## Connect to your Sense HAT
+## Підключись до свого Sense HAT
 
-+ If you have a Sense HAT, attach it to your Raspberry Pi.
++ Якщо у тебе є Sense HAT, під'єднай його до свого Raspberry Pi.
 
 [[[rpi-sensehat-attach]]]
 
-+ If you do not have a Sense HAT, you could create the project using the Sense HAT emulator.
++ Якщо у тебе немає Sense HAT, ти можеш створити проєкт за допомогою емулятора Sense HAT.
 
 [[[rpi-sensehat-emulator]]]
 
 
-**Note:** if you are using a Sense HAT, you will be using Thonny for your code. If you are using the Sense HAT emulator, you will be using Trinket. Depending on which option you are using, there may be some differences in the colour of the text highlighting.
+**Примітка:** якщо ти використовуєш Sense HAT, для свого коду потрібно буде використовувати Thonny. Якщо ти використовуєш емулятор Sense HAT, тобі знадобиться Trinket. Залежно від того, який варіант ти використовуєш, можуть бути деякі відмінності у кольорі підсвіченого тексту.
