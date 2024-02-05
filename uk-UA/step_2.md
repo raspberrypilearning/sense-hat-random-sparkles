@@ -1,28 +1,28 @@
-## What you will need
+## Що тобі знадобиться
 
-### Hardware
+### Обладнання
 
-* A Raspberry Pi
-* A Sense HAT, or the Pi's Sense HAT emulator
+* Raspberry Pi
+* Sense HAT або емулятор Pi's Sense HAT
 
-**or**
+**або**
 
-If you do not have a Raspberry Pi, you can create the project using:
+Якщо у тебе немає Raspberry Pi, ти можеш створити проєкт, використовуючи:
 
-* Online Sense HAT emulator [on Trinket](https://trinket.io/python/312a2b66ba)
+* Онлайн-емулятор Sense HAT [на Trinket](https://trinket.io/python/312a2b66ba)
 
-### Software
-If you're using a Raspberry Pi, you will need the [latest version of Raspberry Pi OS](https://www.raspberrypi.org/downloads/), which already includes the following software packages:
+### Програмне забезпечення
+Якщо ти використовуєш Raspberry Pi, тобі знадобиться [остання версія Raspbian](https://www.raspberrypi.org/downloads/), яка вже містить такі програмні пакети:
 
 - Thonny
 
-You can find the **Sense HAT Emulator** in the **Recommended Softare** application.
+Ти можеш знайти **емулятор Sense HAT** у застосунку **Рекомендоване програмне забезпечення**.
 
-If for any reason you need to install a package manually, follow these instructions:
+Якщо з будь-якої причини тобі потрібно встановити пакет вручну, дотримуйся таких інструкцій:
 
 [[[rpi-install-software]]]
 
-Type this command into a terminal window to install the Sense HAT package:
+Введи цю команду у вікно терміналу, щоб встановити пакет Sense HAT:
 
 ```bash
 sudo apt-get install sense-hat
