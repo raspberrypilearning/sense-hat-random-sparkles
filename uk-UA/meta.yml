@@ -22,9 +22,9 @@ steps:
   - title: Підключись до свого Sense HAT
   - title: Встановлення пікселів випадковим чином
     completion:
-      - engaged
+    - engaged
   - title: Використання модуля random
   - title: Додай цикл
     completion:
-      - internal
+    - internal
   - title: 'Завдання: кращі блискітки'
