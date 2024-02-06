@@ -4,7 +4,9 @@
 
 ### Що ти зробиш
 
-Ось попередній перегляд ефекту випадкових блискіток, який ти створиш — натисни **Виконати**, щоб побачити його в дії. <iframe src="https://trinket.io/embed/python/55af2b45f5?outputOnly=true&runOption=run" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+Ось попередній перегляд ефекту випадкових блискіток, який ти створиш — натисни **Виконати**, щоб побачити його в дії.
+
+<iframe src="https://trinket.io/embed/python/55af2b45f5?outputOnly=true&runOption=run" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
 ### Чому ти навчишся
