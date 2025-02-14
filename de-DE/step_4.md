@@ -21,7 +21,8 @@ Zuerst überlegen wir uns einige Zufallszahlen und verwenden die `set_pixel` Fun
 
 Wir werden dann x und y definieren, um auszuwählen, welche Pixel auf dem Sense HAT aufleuchten.
 
-+ Erstelle eine Variable namens `x`, und setze sie gleich einer Zahl deiner Wahl zwischen 0 und 7. Dies wird die X-Koordinate deines Pixels auf dem Display sein. [[[generic-python-creating-a-variable]]]
++ Erstelle eine Variable namens `x`, und setze sie gleich einer Zahl deiner Wahl zwischen 0 und 7. Dies wird die X-Koordinate deines Pixels auf dem Display sein.
+[[[generic-python-creating-a-variable]]]
 
 + Erstelle eine weitere Variable namens `y`, und setze sie gleich einer Zahl deiner Wahl zwischen 0 und 7. Dies ist die y-Koordinate deines Pixels auf dem Display.
 
