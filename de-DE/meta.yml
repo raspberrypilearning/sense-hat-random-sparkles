@@ -35,3 +35,5 @@ steps:
       - internal
   - 
     title: 'Herausforderung: Besseres Funkeln'
+    completion:
+      - external
