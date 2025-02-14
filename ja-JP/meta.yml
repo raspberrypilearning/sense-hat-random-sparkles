@@ -35,3 +35,5 @@ steps:
       - internal
   - 
     title: 'Challenge: better sparkles'
+    completion:
+      - external
