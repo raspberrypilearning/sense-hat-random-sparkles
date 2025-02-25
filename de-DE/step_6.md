@@ -2,7 +2,7 @@
 
 Anstatt dein Programm durch Drücken von <kbd>F5</kbd> immer wieder zu starten, kannst du eine Schleife hinzufügen, damit es selbst weiter läuft.
 
-+ Du kannst das `Schlaf`-Modul verwenden, um das Programm zwischen Pixeln zu pausieren. Füge zunächst einen weiteren `import` am Anfang deiner Datei hinzu.
++ Du kannst das `sleep`-Modul verwenden, um das Programm zwischen Pixeln zu pausieren. Füge zunächst einen weiteren `import` am Anfang deiner Datei hinzu.
 
 ```python
 from time import sleep
