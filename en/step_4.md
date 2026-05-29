@@ -48,7 +48,6 @@ sense.set_pixel(?, ?, ?, ?, ?)
 View the hint below if you are stuck.
 
 --- hints ---
-
 --- hint ---
 
 Here is how your finished code should look — you will probably have chosen different numbers:
@@ -56,8 +55,8 @@ Here is how your finished code should look — you will probably have chosen dif
 ![Random pixel solution](images/random-pixel-solution.png)
 
 --- /hint ---
-
 --- /hints ---
+
 
 
 + Run your code by pressing <kbd>F5</kbd>. You should see a single LED light up on the Sense HAT's LED display.
