@@ -17,16 +17,6 @@ from time import sleep
 --- hints ---
 --- hint ---
 
-An infinite loop will keep running the code inside it forever. Here is the code to begin an infinite loop. Don't forget that `True` must have a capital `T`.
-
-```python
-while True:
-```
-
---- /hint ---
-
---- hint ---
-
 Here is what your code should look like:
 
 ```python
@@ -41,6 +31,7 @@ while True:
 
 --- /hint ---
 --- /hints ---
+
 
 + Add a line of code at the bottom of your program to pause for 0.1 seconds. Make sure that this line is indented level with the `set_pixel` line to show that it is inside the loop.
 
